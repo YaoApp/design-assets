@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# YaoApp/design-assets
+# ============================================================
+palette:
+  name: "Brutalist"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "startup"
+    style: "brutalist"
+    mode: "light"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#000000"
+      hover: "#333333"
+      light: "#F5F5F5"
+
+    secondary:
+      base: "#666666"
+      hover: "#444444"
+      light: "#E0E0E0"
+
+    accent:
+      base: "#FF2D2D"
+      hover: "#CC0000"
+      light: "#FFE0E0"
+
+    surface:
+      base: "#FFFFFF"
+      alt: "#F0F0F0"
+      hover: "#E5E5E5"
+
+    text:
+      primary: "#000000"
+      secondary: "#555555"
+      disabled: "#BBBBBB"
+      inverse: "#FFFFFF"
+
+    border:
+      base: "#000000"
+      focus: "#FF2D2D"
+
+    semantic:
+      success: "#008000"
+      warning: "#FF8C00"
+      error: "#FF0000"
+      info: "#0000FF"
+
+  dark_mode:
+    surface:
+      base: "#111111"
+      alt: "#1A1A1A"
+    text:
+      primary: "#EEEEEE"
+      secondary: "#999999"

@@ -1,0 +1,68 @@
+/* === Design Tokens for Brutalist === */
+/* Medium: web */
+/* Palette: palettes/2024/brutalist.yml */
+/* Source: curated */
+
+:root {
+  /* ======== Color System ======== */
+  --color-primary: #000000;
+  --color-primary-hover: #333333;
+  --color-primary-light: #F5F5F5;
+  --color-secondary: #666666;
+  --color-accent: #FF2D2D;
+  --color-success: #008000;
+  --color-warning: #FF8C00;
+  --color-error: #FF0000;
+  --color-info: #0000FF;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F0F0F0;
+  --color-surface-hover: #E5E5E5;
+  --color-text-primary: #000000;
+  --color-text-secondary: #555555;
+  --color-text-disabled: #BBBBBB;
+  --color-border: #000000;
+  --color-border-focus: #FF2D2D;
+
+  /* ======== Typography ======== */
+  --font-sans: 'Inter', 'Noto Sans SC', -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', 'Noto Serif SC', Georgia, serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --font-hand: 'LXGW WenKai', cursive;
+  --font-icon: 'Material Symbols Rounded';
+  --font-body: var(--font-sans);
+  --font-heading: var(--font-sans);
+  --text-base: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+
+  /* ======== Spacing ======== */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* ======== Border Radius ======== */
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-full: 0;
+
+  /* ======== Shadows ======== */
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
+
+  /* ======== Layout ======== */
+  --page-width: 960px;
+  --header-height: 56px;
+  --sidebar-width: 240px;
+}

@@ -12,19 +12,24 @@ pulls assets on demand. All paths relative to Raw Base.
 
 ## Fonts
 
-| Name | Category | Weights | File | Size |
-|------|----------|---------|------|------|
-| Inter | sans-serif | 400-800 (var) | `fonts/inter/Inter-Variable.woff2` | ~315KB |
-| Roboto | sans-serif | 400, 500, 700 | `fonts/roboto/Roboto-{Regular,Medium,Bold}.woff2` | ~160KB |
-| Open Sans | sans-serif | 400, 600, 700 | `fonts/open-sans/OpenSans-{Regular,SemiBold,Bold}.woff2` | ~180KB |
-| Playfair Display | serif | 400, 700, 900 | `fonts/playfair-display/PlayfairDisplay-{Regular,Bold,Black}.woff2` | ~250KB |
-| DM Sans | sans-serif | 400, 500, 700 | `fonts/dm-sans/DMSans-{Regular,Medium,Bold}.woff2` | ~150KB |
-| Space Grotesk | sans-serif | 400, 500, 700 | `fonts/space-grotesk/SpaceGrotesk-{Regular,Medium,Bold}.woff2` | ~160KB |
-| JetBrains Mono | monospace | 400, 500, 700 | `fonts/jetbrains-mono/JetBrainsMono-{Regular,Medium,Bold}.woff2` | ~180KB |
-| Noto Sans SC | sans-serif | 400, 500, 700 | `fonts/noto-sans-sc/NotoSansSC-{Regular,Medium,Bold}.woff2` | ~8MB/weight |
-| Noto Serif SC | serif | 400, 700 | `fonts/noto-serif-sc/NotoSerifSC-{Regular,Bold}.woff2` | ~8MB/weight |
-| LXGW WenKai | handwritten | 400, 500 | `fonts/lxgw-wenkai/LXGWWenKai-{Regular,Medium}.ttf` | ~25MB/weight |
-| Material Symbols Rounded | icon | 400 (var) | `fonts/material-symbols/MaterialSymbolsRounded.woff2` | ~500KB |
+| Name | Category | Weights | Files | Size |
+|------|----------|---------|-------|------|
+| Inter | sans-serif | 400, 500, 600, 700, 800 | `fonts/inter/{400,500,600,700,800}.woff2` + subsets + fonts.css | ~244KB |
+| Roboto | sans-serif | 400, 500, 700 | `fonts/roboto/{400,500,700}.woff2` + subsets + fonts.css | ~272KB |
+| Open Sans | sans-serif | 400, 600, 700 | `fonts/open-sans/{400,600,700}.woff2` + subsets + fonts.css | ~344KB |
+| Playfair Display | serif | 400, 700, 900 | `fonts/playfair-display/{400,700,900}.woff2` + subsets + fonts.css | ~116KB |
+| DM Sans | sans-serif | 400, 500, 700 | `fonts/dm-sans/{400,500,700}.woff2` + subsets + fonts.css | ~72KB |
+| Space Grotesk | sans-serif | 400, 500, 700 | `fonts/space-grotesk/{400,500,700}.woff2` + subsets + fonts.css | ~64KB |
+| JetBrains Mono | monospace | 400, 500, 700 | `fonts/jetbrains-mono/{400,500,700}.woff2` + subsets + fonts.css | ~92KB |
+| Noto Sans SC | sans-serif | 400, 500, 700 | `fonts/noto-sans-sc/{400,500,700}.woff2` + subsets + fonts.css | ~4.9MB |
+| Noto Serif SC | serif | 400, 700 | `fonts/noto-serif-sc/{400,700}.woff2` + subsets + fonts.css | ~6.2MB |
+| LXGW WenKai | handwritten | 400, 500 | `fonts/lxgw-wenkai/LXGWWenKai-{Regular,Medium}.ttf` | ~49MB |
+| Material Symbols Rounded | icon | 400 (var) | `fonts/material-symbols/MaterialSymbolsRounded.woff2` + fonts.css | ~1.4MB |
+
+Each font directory contains:
+- `{weight}.woff2` — Latin subset files with clean weight-based names (primary use for Western text)
+- `fonts.css` — Google Fonts CSS response with unicode-range @font-face declarations
+- `subsets/` — All subset files (Latin, Latin-ext, Cyrillic, Greek, Vietnamese, etc.) for full coverage
 
 ### Font Pairings
 
@@ -85,6 +90,7 @@ pulls assets on demand. All paths relative to Raw Base.
 | Art Deco | `palettes/2024/art-deco.yml` | creative | art-deco |
 | Noir | `palettes/2024/noir.yml` | media | noir |
 | Industrial | `palettes/2024/industrial.yml` | startup | industrial |
+| Brutalist | `palettes/2024/brutalist.yml` | startup | brutalist |
 
 ### 2025
 | Name | File | Industry | Style |
@@ -134,6 +140,7 @@ pulls assets on demand. All paths relative to Raw Base.
 | Art Deco | `designs/2024/art-deco/` | creative | landing, hero | web | art-deco |
 | Noir | `designs/2024/noir/` | media | landing, hero, content | web | noir |
 | Industrial | `designs/2024/industrial/` | startup | landing, hero | web | industrial |
+| Brutalist | `designs/2024/brutalist/` | startup | landing, hero | web | brutalist |
 
 ### 2025
 | Name | Directory | Industry | Scenes | Medium | Style |
@@ -143,6 +150,10 @@ pulls assets on demand. All paths relative to Raw Base.
 | Food App Warm | `designs/2025/food-app-warm/` | food | list, detail | app | playful |
 | Media Blog Serif | `designs/2025/media-blog-serif/` | media | content | web | editorial |
 | Education Kid | `designs/2025/education-kid/` | education | landing, gallery | web | playful |
+| Glassmorphism | `designs/2025/glassmorphism/` | saas | landing, hero, dashboard | web | glassmorphism |
+| Neumorphism | `designs/2025/neumorphism/` | healthcare | dashboard, profile, form | web | neumorphism |
+| Neobrutalism | `designs/2025/neobrutalism/` | education | landing, hero, list | web | neobrutalism |
+| Vibrant | `designs/2025/vibrant/` | ecommerce | landing, hero, gallery | web | vibrant |
 
 ### 2026
 | Name | Directory | Industry | Scenes | Medium | Style |
@@ -152,6 +163,10 @@ pulls assets on demand. All paths relative to Raw Base.
 | Gaming Dark | `designs/2026/gaming-dark/` | gaming | landing, hero | web | tech |
 | Travel Mood | `designs/2026/travel-mood/` | travel | landing, gallery | web | soft |
 | Poster Conference | `designs/2026/poster-conference/` | creative | poster | poster | editorial |
+| Cyberpunk | `designs/2026/cyberpunk/` | gaming | landing, hero | web | cyberpunk |
+| Retro Futurism | `designs/2026/retro-futurism/` | creative | landing, hero, gallery | web | retro-futurism |
+| Organic | `designs/2026/organic/` | food | landing, hero, gallery | web | organic |
+| Modern Agency | `designs/2026/modern-agency/` | creative | landing, hero, gallery | web | modern-agency |
 
 ---
 

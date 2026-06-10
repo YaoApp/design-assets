@@ -1,0 +1,649 @@
+# ============================================================
+# Traditional Chinese Colors Database
+# Based on historical Chinese color taxonomy (色名考)
+# Reference: https://www.nevertoday.cn/
+# Used by: color-palette skill — harmony lookup, traditional theme generation
+# ============================================================
+# Harmony rules:
+#   - Complementary: colors from opposing families (red ↔ green, blue ↔ orange)
+#   - Adjacent: neighboring colors in the same season
+#   - Five Elements: 火(red) → 土(yellow) → 金(white) → 水(black) → 木(green)
+# ============================================================
+
+traditional_colors:
+
+  # === Red Family (赤/红) — Fire Element ===
+  red:
+    - name: "胭脂"
+      name_en: "Rouge"
+      hex: "#9B1B30"
+      harmony: ["#E8D5B7", "#2D5A4B", "#F5E6D3"]
+      season: "spring"
+
+    - name: "朱砂"
+      name_en: "Cinnabar"
+      hex: "#E83015"
+      harmony: ["#F5E6CC", "#1A3A2A", "#FFF8E7"]
+      season: "summer"
+
+    - name: "嫣红"
+      name_en: "Yan Red"
+      hex: "#BE0027"
+      harmony: ["#D4C5A9", "#1E4235", "#FAF3E0"]
+      season: "spring"
+
+    - name: "赤"
+      name_en: "Vermillion"
+      hex: "#C73E3A"
+      harmony: ["#F7F0E0", "#2C4A3E", "#E8DFD0"]
+      season: "summer"
+
+    - name: "绛紫"
+      name_en: "Crimson Purple"
+      hex: "#8B2671"
+      harmony: ["#E8DDD0", "#3A5A4A", "#F0EBE0"]
+      season: "autumn"
+
+    - name: "妃色"
+      name_en: "Consort Pink"
+      hex: "#ED5736"
+      harmony: ["#F5EDE0", "#2D6A4A", "#E0D5C5"]
+      season: "spring"
+
+    - name: "品红"
+      name_en: "Magenta"
+      hex: "#D2357D"
+      harmony: ["#EBE0D0", "#1E5040", "#F8F3E8"]
+      season: "summer"
+
+    - name: "桃红"
+      name_en: "Peach Blossom"
+      hex: "#F47983"
+      harmony: ["#E5F0E0", "#5A7A6A", "#FCF8F0"]
+      season: "spring"
+
+    - name: "海棠红"
+      name_en: "Crabapple Red"
+      hex: "#DB5A6B"
+      harmony: ["#F0EDE0", "#3D6B5A", "#FFF8F0"]
+      season: "spring"
+
+    - name: "石榴红"
+      name_en: "Pomegranate Red"
+      hex: "#CF2C1F"
+      harmony: ["#F2E8D5", "#1B4D3A", "#FFF5E8"]
+      season: "summer"
+
+    - name: "酡红"
+      name_en: "Flushed Red"
+      hex: "#DC7A6B"
+      harmony: ["#E8F0E5", "#5A8A70", "#FCF5EB"]
+      season: "autumn"
+
+    - name: "银红"
+      name_en: "Silver Red"
+      hex: "#E88A88"
+      harmony: ["#E5EBE0", "#4A7A60", "#FBF6EE"]
+      season: "spring"
+
+    - name: "枣红"
+      name_en: "Date Red"
+      hex: "#7A1F1A"
+      harmony: ["#E8E0D0", "#3A5A4A", "#F5EDE0"]
+      season: "autumn"
+
+    - name: "殷红"
+      name_en: "Dark Red"
+      hex: "#82111F"
+      harmony: ["#E5DCC8", "#2E5545", "#F8F0E5"]
+      season: "winter"
+
+  # === Orange Family (橙) ===
+  orange:
+    - name: "杏黄"
+      name_en: "Apricot Yellow"
+      hex: "#F8C37C"
+      harmony: ["#4A6B8A", "#F0EDE5", "#2D5A6A"]
+      season: "autumn"
+
+    - name: "橘橙"
+      name_en: "Tangerine"
+      hex: "#F97D2B"
+      harmony: ["#3B5D8A", "#F5F0E8", "#2A4D6D"]
+      season: "autumn"
+
+    - name: "琥珀"
+      name_en: "Amber"
+      hex: "#CA6924"
+      harmony: ["#4A6A8E", "#EDE8E0", "#1D3D5D"]
+      season: "autumn"
+
+    - name: "秋色"
+      name_en: "Autumn Color"
+      hex: "#D9883B"
+      harmony: ["#5A7A9A", "#F0EBE3", "#2E4D68"]
+      season: "autumn"
+
+    - name: "黄栌"
+      name_en: "Smoke Tree"
+      hex: "#BE6A2C"
+      harmony: ["#3D5D7A", "#EBE5DA", "#1A3A55"]
+      season: "autumn"
+
+    - name: "姜黄"
+      name_en: "Turmeric"
+      hex: "#E2A23B"
+      harmony: ["#5A6A90", "#F2EDE5", "#1D3350"]
+      season: "autumn"
+
+    - name: "杏红"
+      name_en: "Apricot Blush"
+      hex: "#F2A38A"
+      harmony: ["#4A7585", "#F0EDE8", "#2D5A65"]
+      season: "spring"
+
+    - name: "橘红"
+      name_en: "Tangerine Red"
+      hex: "#F15B3A"
+      harmony: ["#3D5D7A", "#F5F0E8", "#1A3855"]
+      season: "summer"
+
+  # === Yellow Family (黄) — Earth Element ===
+  yellow:
+    - name: "鹅黄"
+      name_en: "Gosling Yellow"
+      hex: "#FFF143"
+      harmony: ["#6B5B8A", "#F5F0EB", "#3D2D5A"]
+      season: "spring"
+
+    - name: "藤黄"
+      name_en: "Rattan Yellow"
+      hex: "#F2D458"
+      harmony: ["#5A5A8A", "#F0EDE8", "#2D2D5D"]
+      season: "summer"
+
+    - name: "明黄"
+      name_en: "Imperial Yellow"
+      hex: "#FFD700"
+      harmony: ["#4A4A7A", "#EBE8E5", "#1A1A45"]
+      season: "summer"
+
+    - name: "石黄"
+      name_en: "Mineral Yellow"
+      hex: "#E8B742"
+      harmony: ["#5A5D8E", "#F2EFE8", "#2D2D5A"]
+      season: "autumn"
+
+    - name: "芥黄"
+      name_en: "Mustard Yellow"
+      hex: "#D9A545"
+      harmony: ["#4D5D7D", "#EDEAE2", "#1D2D4D"]
+      season: "autumn"
+
+    - name: "缃色"
+      name_en: "Light Yellow"
+      hex: "#F0C05A"
+      harmony: ["#5A6D8D", "#F0EDE8", "#1D2D5A"]
+      season: "spring"
+
+    - name: "萱草黄"
+      name_en: "Daylily Yellow"
+      hex: "#E8A735"
+      harmony: ["#4A5D7D", "#EDE8E0", "#1A2D4D"]
+      season: "summer"
+
+    - name: "金黄"
+      name_en: "Golden"
+      hex: "#C8962E"
+      harmony: ["#3A4D6D", "#E8E3DB", "#0A1D3D"]
+      season: "autumn"
+
+    - name: "栀子"
+      name_en: "Gardenia"
+      hex: "#F3D46B"
+      harmony: ["#6D6D8D", "#F5F2ED", "#3D3358"]
+      season: "summer"
+
+    - name: "柘黄"
+      name_en: "Cudrania Yellow"
+      hex: "#C8A951"
+      harmony: ["#4D556D", "#EAE5DC", "#1D2540"]
+      season: "autumn"
+
+  # === Green Family (绿) — Wood Element ===
+  green:
+    - name: "柳绿"
+      name_en: "Willow Green"
+      hex: "#A8D870"
+      harmony: ["#8B5A6D", "#F5EDEB", "#5D2D48"]
+      season: "spring"
+
+    - name: "竹青"
+      name_en: "Bamboo Green"
+      hex: "#789262"
+      harmony: ["#9B5A6D", "#F0E8E5", "#6D2A3D"]
+      season: "spring"
+
+    - name: "葱绿"
+      name_en: "Scallion Green"
+      hex: "#95C15A"
+      harmony: ["#8A5B7D", "#F5F0ED", "#5D2D5A"]
+      season: "spring"
+
+    - name: "翡翠"
+      name_en: "Jadeite"
+      hex: "#4CAF50"
+      harmony: ["#9B5B7A", "#F2EBE8", "#6B2D4D"]
+      season: "summer"
+
+    - name: "碧色"
+      name_en: "Jade Green"
+      hex: "#3D8B6E"
+      harmony: ["#A56B7A", "#EDE5E0", "#753D4D"]
+      season: "summer"
+
+    - name: "石绿"
+      name_en: "Mineral Green"
+      hex: "#5B8C5A"
+      harmony: ["#9A6B7A", "#F0E8E3", "#6A3D4D"]
+      season: "spring"
+
+    - name: "松花绿"
+      name_en: "Pine Flower Green"
+      hex: "#84A96B"
+      harmony: ["#8D5B6D", "#EDE5E0", "#5D2D3D"]
+      season: "spring"
+
+    - name: "青葱"
+      name_en: "Fresh Green"
+      hex: "#7AAF5A"
+      harmony: ["#9B5D7D", "#F2ECE5", "#6D2D55"]
+      season: "summer"
+
+    - name: "油绿"
+      name_en: "Oil Green"
+      hex: "#3F5E3A"
+      harmony: ["#A55B6B", "#EDE3DB", "#752D38"]
+      season: "summer"
+
+    - name: "蔻梢绿"
+      name_en: "Cardamom Green"
+      hex: "#6DA85D"
+      harmony: ["#9B6B85", "#F2EDE8", "#6D3D5D"]
+      season: "spring"
+
+    - name: "苍绿"
+      name_en: "Deep Green"
+      hex: "#2D5A3D"
+      harmony: ["#B57B7A", "#EBE0D8", "#854D3D"]
+      season: "winter"
+
+  # === Cyan / Blue-Green Family (青) ===
+  cyan:
+    - name: "天青"
+      name_en: "Sky Cyan"
+      hex: "#6BB5C8"
+      harmony: ["#C47B5D", "#F2E8E0", "#8B4A2D"]
+      season: "summer"
+
+    - name: "霁青"
+      name_en: "Clear Sky Blue"
+      hex: "#5A8FA8"
+      harmony: ["#C87B5D", "#EDE3D8", "#954D2D"]
+      season: "summer"
+
+    - name: "月白"
+      name_en: "Moon White"
+      hex: "#D6ECF0"
+      harmony: ["#8B6B5D", "#F5F0EB", "#5D3D2D"]
+      season: "autumn"
+
+    - name: "玉色"
+      name_en: "Jade Color"
+      hex: "#B8D8CC"
+      harmony: ["#9B6B6D", "#F2EDE8", "#6D3D3D"]
+      season: "spring"
+
+    - name: "缥色"
+      name_en: "Pale Cyan"
+      hex: "#A8D4D8"
+      harmony: ["#A06B6D", "#F0EBE5", "#703D3D"]
+      season: "summer"
+
+    - name: "青碧"
+      name_en: "Cyan Jade"
+      hex: "#4A90A4"
+      harmony: ["#C87B5A", "#E8E0D5", "#954A2A"]
+      season: "summer"
+
+    - name: "艾绿"
+      name_en: "Mugwort Green"
+      hex: "#B5D5B5"
+      harmony: ["#9B5D6D", "#F0E8E3", "#6B2D3D"]
+      season: "spring"
+
+    - name: "青白"
+      name_en: "Cyan White"
+      hex: "#C8DDE0"
+      harmony: ["#8D5D6D", "#EFE8E3", "#5D2D3D"]
+      season: "winter"
+
+  # === Blue Family (蓝) — Water Element ===
+  blue:
+    - name: "靛青"
+      name_en: "Indigo"
+      hex: "#1E4785"
+      harmony: ["#D9A55D", "#F2E8D8", "#B87A2D"]
+      season: "winter"
+
+    - name: "宝蓝"
+      name_en: "Royal Blue"
+      hex: "#2A5C8A"
+      harmony: ["#D9A56D", "#F0E5D5", "#C4852D"]
+      season: "winter"
+
+    - name: "藏蓝"
+      name_en: "Tibetan Blue"
+      hex: "#2C3E6B"
+      harmony: ["#D9B56D", "#F2EBDD", "#C89538"]
+      season: "winter"
+
+    - name: "靛蓝"
+      name_en: "Indigo Blue"
+      hex: "#1A3A6A"
+      harmony: ["#E0C080", "#F5EDE0", "#C89A3D"]
+      season: "winter"
+
+    - name: "琉璃蓝"
+      name_en: "Glaze Blue"
+      hex: "#3B6EA5"
+      harmony: ["#D9A570", "#F0E5D8", "#C47D35"]
+      season: "winter"
+
+    - name: "花青"
+      name_en: "Flower Blue"
+      hex: "#3D5B8A"
+      harmony: ["#E0C080", "#F2EBDD", "#C89A40"]
+      season: "autumn"
+
+    - name: "群青"
+      name_en: "Ultramarine"
+      hex: "#2E4A8A"
+      harmony: ["#E8C88A", "#F5EDE0", "#D4A540"]
+      season: "winter"
+
+    - name: "石青"
+      name_en: "Mineral Blue"
+      hex: "#4A7AB5"
+      harmony: ["#E0B870", "#F0E8D8", "#C8903D"]
+      season: "winter"
+
+    - name: "霁蓝"
+      name_en: "Clear Blue"
+      hex: "#5A7AB8"
+      harmony: ["#D9C080", "#F2EDE0", "#C4983D"]
+      season: "summer"
+
+    - name: "孔雀蓝"
+      name_en: "Peacock Blue"
+      hex: "#2D8090"
+      harmony: ["#D9A56A", "#F0E5D5", "#C48030"]
+      season: "summer"
+
+  # === Purple Family (紫) ===
+  purple:
+    - name: "青莲"
+      name_en: "Lotus Purple"
+      hex: "#8B6BAE"
+      harmony: ["#C8D5A5", "#F0EDE0", "#8A9B5D"]
+      season: "summer"
+
+    - name: "藕荷"
+      name_en: "Lotus Root"
+      hex: "#B8A6C8"
+      harmony: ["#C8D8B0", "#F2F0E8", "#8AA05A"]
+      season: "spring"
+
+    - name: "紫檀"
+      name_en: "Purple Sandalwood"
+      hex: "#5C3D6B"
+      harmony: ["#C8D5A0", "#F0EBE0", "#8A9A5A"]
+      season: "autumn"
+
+    - name: "雪青"
+      name_en: "Snow Purple"
+      hex: "#9B8EC0"
+      harmony: ["#D5D8B5", "#F5F2EB", "#9AA065"]
+      season: "winter"
+
+    - name: "黛紫"
+      name_en: "Dark Purple"
+      hex: "#4A2D5A"
+      harmony: ["#D0D5A0", "#F0EBD8", "#90A05A"]
+      season: "winter"
+
+    - name: "丁香"
+      name_en: "Lilac"
+      hex: "#A895C8"
+      harmony: ["#D8D5B0", "#F5F0E8", "#9BA05D"]
+      season: "spring"
+
+    - name: "紫藤"
+      name_en: "Wisteria"
+      hex: "#7B6BAD"
+      harmony: ["#C8D8A5", "#F2EDE0", "#8DA05D"]
+      season: "spring"
+
+    - name: "葡萄紫"
+      name_en: "Grape Purple"
+      hex: "#6B3D7A"
+      harmony: ["#C8D5A5", "#F0E8D8", "#8A9A5A"]
+      season: "autumn"
+
+  # === Neutral Family (黑白灰) — Metal/Water Elements ===
+  neutral:
+    - name: "墨色"
+      name_en: "Ink Black"
+      hex: "#1A1A1A"
+      harmony: ["#E8D5C0", "#F5EDE0", "#C8A88A"]
+      season: "winter"
+
+    - name: "玄色"
+      name_en: "Deep Black"
+      hex: "#0D0D0D"
+      harmony: ["#E8D5B8", "#F0E8D8", "#C8A080"]
+      season: "winter"
+
+    - name: "素色"
+      name_en: "Plain White"
+      hex: "#F5F0E8"
+      harmony: ["#3D3D3D", "#6B5B4D", "#2D3D5A"]
+      season: "all"
+
+    - name: "霜色"
+      name_en: "Frost White"
+      hex: "#E8E0D5"
+      harmony: ["#4A4A5A", "#7A6B5D", "#3D3D5D"]
+      season: "winter"
+
+    - name: "铅白"
+      name_en: "Lead White"
+      hex: "#D8D5C8"
+      harmony: ["#5A4A5A", "#8B7B6D", "#4D3D6D"]
+      season: "all"
+
+    - name: "象牙白"
+      name_en: "Ivory White"
+      hex: "#F5EDD8"
+      harmony: ["#4A4A6A", "#7B6B5D", "#3D3D6D"]
+      season: "all"
+
+    - name: "玉白"
+      name_en: "Jade White"
+      hex: "#E8E8D8"
+      harmony: ["#5A4D6D", "#8B7B6D", "#4D3D6D"]
+      season: "all"
+
+    - name: "灰白"
+      name_en: "Ash White"
+      hex: "#D5D5CC"
+      harmony: ["#5D4D6D", "#8D7D6D", "#4D3D6D"]
+      season: "winter"
+
+    - name: "银灰"
+      name_en: "Silver Gray"
+      hex: "#B5B5B0"
+      harmony: ["#6D5D7D", "#9D8D7D", "#5D4D7D"]
+      season: "autumn"
+
+    - name: "苍色"
+      name_en: "Deep Gray"
+      hex: "#7A7A75"
+      harmony: ["#C8B8A0", "#E8DDD0", "#A09070"]
+      season: "winter"
+
+    - name: "黝黑"
+      name_en: "Glossy Black"
+      hex: "#2D2D2D"
+      harmony: ["#D8C8B5", "#EBE0D5", "#B8A088"]
+      season: "winter"
+
+  # === Brown Family (棕) — Earth Element ===
+  brown:
+    - name: "茶色"
+      name_en: "Tea Color"
+      hex: "#A0805A"
+      harmony: ["#4A6D8A", "#E8E5E0", "#2D4D6D"]
+      season: "autumn"
+
+    - name: "驼色"
+      name_en: "Camel"
+      hex: "#C8A880"
+      harmony: ["#5A7D9A", "#F0EDE8", "#2D4D6D"]
+      season: "autumn"
+
+    - name: "栗色"
+      name_en: "Chestnut"
+      hex: "#6B4226"
+      harmony: ["#4A6D8D", "#E8E3DB", "#1D3D5D"]
+      season: "autumn"
+
+    - name: "棕褐"
+      name_en: "Umber"
+      hex: "#5C3D2E"
+      harmony: ["#5A7D9A", "#EDE8E0", "#2D4D6D"]
+      season: "winter"
+
+    - name: "赭色"
+      name_en: "Ochre"
+      hex: "#8B5A3D"
+      harmony: ["#4A6D8A", "#E8E3DB", "#1D3D5A"]
+      season: "autumn"
+
+    - name: "檀色"
+      name_en: "Sandalwood"
+      hex: "#B8896A"
+      harmony: ["#5A7D9A", "#F0EBE3", "#2D4D6D"]
+      season: "autumn"
+
+    - name: "枯叶棕"
+      name_en: "Withered Leaf"
+      hex: "#8B6B4A"
+      harmony: ["#5A7D8D", "#EDE8E0", "#2D4D5D"]
+      season: "winter"
+
+# ============================================================
+# Color Harmonies (配色关系)
+# ============================================================
+harmonies:
+  # Five Elements generation cycle (相生): 木→火→土→金→水→木
+  sheng_cycle:
+    - from: "green"
+      to: "red"
+      relationship: "wood-feeds-fire"
+    - from: "red"
+      to: "yellow"
+      relationship: "fire-creates-earth"
+    - from: "yellow"
+      to: "neutral"
+      relationship: "earth-bears-metal"
+    - from: "neutral"
+      to: "blue"
+      relationship: "metal-collects-water"
+    - from: "blue"
+      to: "green"
+      relationship: "water-nourishes-wood"
+
+  # Common traditional pairings
+  pairings:
+    - name: "月白·青莲"
+      colors: ["#D6ECF0", "#8B6BAE"]
+      style: "quiet_elegant"
+      description: "Moon white with lotus purple — quiet elegance"
+
+    - name: "胭脂·翡翠"
+      colors: ["#9B1B30", "#4CAF50"]
+      style: "bold_contrast"
+      description: "Rouge red with jadeite green — bold traditional contrast"
+
+    - name: "藤黄·靛青"
+      colors: ["#F2D458", "#1E4785"]
+      style: "imperial"
+      description: "Rattan yellow with indigo — imperial palette"
+
+    - name: "缃色·花青"
+      colors: ["#F0C05A", "#3D5B8A"]
+      style: "scholar"
+      description: "Light yellow with flower blue — scholarly elegance"
+
+    - name: "秋色·藏蓝"
+      colors: ["#D9883B", "#2C3E6B"]
+      style: "autumn_night"
+      description: "Autumn orange with Tibetan blue — harvest night"
+
+    - name: "青葱·黛紫"
+      colors: ["#7AAF5A", "#4A2D5A"]
+      style: "deep_forest"
+      description: "Fresh green with dark purple — deep forest mystery"
+
+    - name: "竹青·朱砂"
+      colors: ["#789262", "#E83015"]
+      style: "natural_vibrant"
+      description: "Bamboo green with cinnabar red — nature meets fire"
+
+    - name: "霜色·玄色"
+      colors: ["#E8E0D5", "#0D0D0D"]
+      style: "ink_wash"
+      description: "Frost white with deep black — ink wash painting"
+
+# ============================================================
+# Seasonal Palettes
+# ============================================================
+seasonal:
+  spring:
+    name: "Spring Renewal"
+    primary_family: "green"
+    accent_family: "red"
+    description: "Fresh greens with floral accents — 春回大地"
+    colors: ["#A8D870", "#F47983", "#F5F0E8", "#3D5A2D"]
+
+  summer:
+    name: "Summer Vibrancy"
+    primary_family: "red"
+    accent_family: "cyan"
+    description: "Bold reds with cooling blues — 盛夏光年"
+    colors: ["#E83015", "#6BB5C8", "#FFF8F0", "#1A3A4A"]
+
+  autumn:
+    name: "Autumn Harvest"
+    primary_family: "orange"
+    accent_family: "purple"
+    description: "Warm earth tones with deep purples — 秋收冬藏"
+    colors: ["#D9883B", "#5C3D6B", "#F5EDE0", "#3D2A1A"]
+
+  winter:
+    name: "Winter Stillness"
+    primary_family: "blue"
+    accent_family: "neutral"
+    description: "Deep blues with ink blacks — 寒江独钓"
+    colors: ["#1E4785", "#E8E0D5", "#F5F0EB", "#0D0D0D"]

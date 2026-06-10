@@ -1,0 +1,35 @@
+# Design Scheme Manifest
+name: "Brutalist"
+version: "1.0"
+year: 2024
+source: "curated"
+
+industry: "startup"
+scenes:
+  - landing
+  - hero
+medium: "web"
+
+style: "brutalist"
+mood: "raw"
+mode: "light"
+
+colors_ref: ".library/palettes/2024/brutalist.yml"
+
+typography:
+  body: "Inter"
+  heading: "Space Grotesk"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "single-column"
+  max_width: 960
+  responsive: true
+
+keywords:
+  - "brutalist"
+  - "raw"
+  - "unstyled"
+  - "functional"
+  - "high contrast"
+  - "minimalist"
