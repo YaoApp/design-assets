@@ -7,24 +7,26 @@
   /* ======== Color System ======== */
   --color-primary: #FFDE00;
   --color-primary-hover: #E6C800;
-  --color-primary-light: #FFF9CC;
-  --color-secondary: #000000;
-  --color-secondary-light: #333333;
-  --color-accent: #FF3366;
-  --color-accent-hover: #E62D5C;
-  --color-surface: #FFFFFF;
-  --color-surface-secondary: #F5F5F5;
-  --color-background: #FAFAFA;
-  --color-border: #000000;
-  --color-border-light: #CCCCCC;
+  --color-primary-light: #FFE84D;
+  --color-secondary: #FF3366;
+  --color-secondary-hover: #E61A4D;
+  --color-secondary-light: #FF7093;
+  --color-accent: #0047FF;
+  --color-accent-hover: #003EE6;
+  --color-accent-light: #4D7BFF;
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
+  --color-info: #3B82F6;
+  --color-surface: #FFFDF7;
+  --color-surface-alt: #FFF9E6;
+  --color-surface-hover: #FFF3CC;
   --color-text-primary: #000000;
-  --color-text-secondary: #444444;
-  --color-text-muted: #888888;
-  --color-success: #00C853;
-  --color-warning: #FF9800;
-  --color-error: #FF1744;
-  --color-info: #2979FF;
-
+  --color-text-secondary: #333333;
+  --color-text-disabled: #999999;
+  --color-text-inverse: #FFFFFF;
+  --color-border: #000000;
+  --color-border-focus: #0047FF;
   /* ======== Typography ======== */
   --font-sans: 'Inter', 'Noto Sans SC', -apple-system, sans-serif;
   --font-serif: 'Playfair Display', 'Noto Serif SC', Georgia, serif;

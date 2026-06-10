@@ -7,24 +7,26 @@
   /* ======== Color System ======== */
   --color-primary: #8B5CF6;
   --color-primary-hover: #7C3AED;
-  --color-primary-light: #F5F3FF;
+  --color-primary-light: #A78BFA;
   --color-secondary: #F97316;
-  --color-secondary-light: #FFF7ED;
+  --color-secondary-hover: #EA580C;
+  --color-secondary-light: #FB923C;
   --color-accent: #84CC16;
   --color-accent-hover: #65A30D;
-  --color-surface: #FFFFFF;
-  --color-surface-secondary: #FAFAFA;
-  --color-background: #F8F9FA;
-  --color-border: #E5E7EB;
-  --color-border-light: #F3F4F6;
-  --color-text-primary: #1F2937;
-  --color-text-secondary: #6B7280;
-  --color-text-muted: #9CA3AF;
-  --color-success: #22C55E;
+  --color-accent-light: #A3E635;
+  --color-success: #10B981;
   --color-warning: #F59E0B;
   --color-error: #EF4444;
   --color-info: #3B82F6;
-
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F5F3FF;
+  --color-surface-hover: #EDE9FE;
+  --color-text-primary: #2D1B69;
+  --color-text-secondary: #6D5D9E;
+  --color-text-disabled: #A599CC;
+  --color-text-inverse: #FFFFFF;
+  --color-border: #DDD6FE;
+  --color-border-focus: #8B5CF6;
   /* ======== Typography ======== */
   --font-sans: 'Inter', 'Noto Sans SC', -apple-system, sans-serif;
   --font-serif: 'Playfair Display', 'Noto Serif SC', Georgia, serif;

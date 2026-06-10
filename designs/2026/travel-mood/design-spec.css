@@ -9,7 +9,11 @@
   --color-primary-hover: #0E7490;
   --color-primary-light: #ECFEFF;
   --color-secondary: #22D3EE;
+  --color-secondary-hover: #06B6D4;
+  --color-secondary-light: #CFFAFE;
   --color-accent: #F59E0B;
+  --color-accent-hover: #D97706;
+  --color-accent-light: #FEF3C7;
   --color-success: #10B981;
   --color-warning: #F59E0B;
   --color-error: #EF4444;
@@ -20,9 +24,9 @@
   --color-text-primary: #0C4A6E;
   --color-text-secondary: #54849C;
   --color-text-disabled: #B3CCDB;
+  --color-text-inverse: #FFFFFF;
   --color-border: #E0F2FE;
   --color-border-focus: #0891B2;
-
   /* ======== Typography ======== */
   --font-sans: 'Playfair Display', 'Noto Sans SC', -apple-system, sans-serif;
   --font-serif: 'Playfair Display', 'Noto Serif SC', Georgia, serif;

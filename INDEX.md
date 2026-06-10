@@ -123,6 +123,7 @@ Each font directory contains:
 |------|------|-------------|
 | Yuebai Quiet | `palettes/traditional/yuebai-quiet.yml` | Yuebai · Quiet East |
 | Tang Dynasty Warm | `palettes/traditional/tang-dynasty-warm.yml` | Tang Dynasty · Warm Golden Age |
+| Traditional Colors DB | `palettes/traditional/colors.yml` | 100+ traditional Chinese colors with harmony relationships |
 
 ---
 

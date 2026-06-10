@@ -7,8 +7,8 @@
 - **`INDEX.md`** — Master catalog. AI reads this (human-readable Markdown) to discover available assets
 - **`fonts/`** — 11 seed typefaces (7 EN + 3 ZH + 1 icon) covering 95% of design scenarios
 - **`templates/`** — 14 HTML skeletons across web, app, and poster mediums
-- **`palettes/`** — 29 color palettes in standard YAML format across 20 design styles
-- **`designs/`** — 27 curated design schemes organized by year, with manifest.yml + design-spec.css
+- **`palettes/`** — 31 color palettes in standard YAML format across 20 design styles
+- **`designs/`** — 28 curated design schemes organized by year, with manifest.yml + design-spec.css
 - **`preview-server/`** — preview-server distribution (Node.js static server with live reload)
 
 ## How it works

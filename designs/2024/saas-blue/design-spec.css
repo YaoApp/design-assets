@@ -9,7 +9,11 @@
   --color-primary-hover: #4338CA;
   --color-primary-light: #E0E7FF;
   --color-secondary: #0EA5E9;
+  --color-secondary-hover: #0284C7;
+  --color-secondary-light: #E0F2FE;
   --color-accent: #F59E0B;
+  --color-accent-hover: #D97706;
+  --color-accent-light: #FEF3C7;
   --color-success: #10B981;
   --color-warning: #F59E0B;
   --color-error: #EF4444;
@@ -20,9 +24,9 @@
   --color-text-primary: #111827;
   --color-text-secondary: #6B7280;
   --color-text-disabled: #D1D5DB;
+  --color-text-inverse: #FFFFFF;
   --color-border: #E5E7EB;
   --color-border-focus: #4F46E5;
-
   /* ======== Typography ======== */
   --font-sans: 'Inter', 'Noto Sans SC', -apple-system, sans-serif;
   --font-serif: 'Playfair Display', 'Noto Serif SC', Georgia, serif;
@@ -62,7 +66,7 @@
   --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
 
   /* ======== Layout ======== */
-  --page-width: 1200px;
+  --page-width: 1440px;
   --header-height: 56px;
   --sidebar-width: 240px;
 }

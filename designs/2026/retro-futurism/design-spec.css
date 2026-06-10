@@ -6,29 +6,24 @@
 :root {
   /* ======== Color System ======== */
   --color-primary: #FF6B9D;
-  --color-primary-hover: #FF4081;
-  --color-primary-light: #2A0A1A;
+  --color-primary-hover: #E6588A;
+  --color-primary-light: #FF99BB;
   --color-secondary: #00D4FF;
-  --color-secondary-light: #001A20;
-  --color-accent: #00D4FF;
-  --color-accent-hover: #00B8E0;
-  --color-surface: #1A0A2E;
-  --color-surface-secondary: #201040;
-  --color-background: #0E0520;
-  --color-border: #FF6B9D;
-  --color-border-light: #2A1040;
-  --color-text-primary: #FFE0EC;
-  --color-text-secondary: #C0A0D0;
-  --color-text-muted: #7A6090;
-  --color-success: #00FF88;
-  --color-warning: #FFD700;
-  --color-error: #FF3366;
+  --color-secondary-hover: #00BEE6;
+  --color-secondary-light: #66E3FF;
+  --color-accent: #FFD700;
+  --color-accent-hover: #E6C200;
+  --color-accent-light: #FFE44D;
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
   --color-info: #00D4FF;
-
-  /* Grid overlay for synthwave aesthetic */
-  --bg-grid: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255,107,157,0.03) 2px, rgba(255,107,157,0.03) 4px),
-             repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(255,107,157,0.03) 2px, rgba(255,107,157,0.03) 4px);
-
+  --color-surface: #1A0A2E;
+  --color-surface-alt: #1E1040;
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #8E8EB3;
+  --color-border: #3D2A6B;
+  --color-border-focus: #FF6B9D;
   /* ======== Typography ======== */
   --font-sans: 'Inter', 'Noto Sans SC', -apple-system, sans-serif;
   --font-serif: 'Playfair Display', 'Noto Serif SC', Georgia, serif;

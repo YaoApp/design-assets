@@ -6,25 +6,27 @@
 :root {
   /* ======== Color System ======== */
   --color-primary: #1A1A2E;
-  --color-primary-hover: #2D2D4A;
-  --color-primary-light: #E8E8F0;
+  --color-primary-hover: #16213E;
+  --color-primary-light: #3A3A5C;
   --color-secondary: #6C7A89;
-  --color-secondary-light: #F0F2F4;
+  --color-secondary-hover: #5A6978;
+  --color-secondary-light: #8E9BAE;
   --color-accent: #E63946;
-  --color-accent-hover: #C62835;
+  --color-accent-hover: #C5303C;
+  --color-accent-light: #F0707A;
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
+  --color-info: #3B82F6;
   --color-surface: #FFFFFF;
-  --color-surface-secondary: #F8F9FA;
-  --color-background: #F4F5F7;
-  --color-border: #D1D5DB;
-  --color-border-light: #E5E7EB;
+  --color-surface-alt: #F8F9FA;
+  --color-surface-hover: #F1F3F5;
   --color-text-primary: #1A1A2E;
-  --color-text-secondary: #6C7A89;
-  --color-text-muted: #9CA3AF;
-  --color-success: #2E7D32;
-  --color-warning: #F57C00;
-  --color-error: #C62828;
-  --color-info: #1565C0;
-
+  --color-text-secondary: #5A6B7F;
+  --color-text-disabled: #A0AEC0;
+  --color-text-inverse: #FFFFFF;
+  --color-border: #E2E8F0;
+  --color-border-focus: #1A1A2E;
   /* ======== Typography ======== */
   --font-sans: 'Inter', 'Noto Sans SC', -apple-system, sans-serif;
   --font-serif: 'Playfair Display', 'Noto Serif SC', Georgia, serif;
