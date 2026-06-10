@@ -23,7 +23,7 @@ Design Agent (`smith.designer`) 的静态资产注册表。AI 启动时下载本
 | JetBrains Mono | monospace | 400, 500, 700 | `fonts/jetbrains-mono/JetBrainsMono-{Regular,Medium,Bold}.woff2` | ~180KB |
 | Noto Sans SC | sans-serif | 400, 500, 700 | `fonts/noto-sans-sc/NotoSansSC-{Regular,Medium,Bold}.woff2` | ~8MB/weight |
 | Noto Serif SC | serif | 400, 700 | `fonts/noto-serif-sc/NotoSerifSC-{Regular,Bold}.woff2` | ~8MB/weight |
-| LXGW WenKai | handwritten | 400, 700 | `fonts/lxgw-wenkai/LXGWWenKai-{Regular,Bold}.woff2` | ~10MB/weight |
+| LXGW WenKai | handwritten | 400, 500 | `fonts/lxgw-wenkai/LXGWWenKai-{Regular,Medium}.ttf` | ~25MB/weight |
 | Material Symbols Rounded | icon | 400 (var) | `fonts/material-symbols/MaterialSymbolsRounded.woff2` | ~500KB |
 
 ### Font Pairings
@@ -35,7 +35,7 @@ Design Agent (`smith.designer`) 的静态资产注册表。AI 启动时下载本
 | Editorial / Blog | Playfair Display 900 | Open Sans 400 | Noto Serif SC 700 | Noto Sans SC 400 |
 | Tech / Dark Mode | Space Grotesk 500 | Inter 400 | Noto Sans SC 500 | Noto Sans SC 400 |
 | E-commerce | DM Sans 700 | Inter 400 | Noto Sans SC 700 | Noto Sans SC 400 |
-| Warm / Handcraft | DM Sans 500 | Inter 400 | LXGW WenKai 700 | Noto Sans SC 400 |
+| Warm / Handcraft | DM Sans 500 | Inter 400 | LXGW WenKai 500 | Noto Sans SC 400 |
 | Data Dashboard | Roboto 500 | Roboto 400 | Noto Sans SC 500 | Noto Sans SC 400 |
 | Mobile App | Roboto 500 | Roboto 400 | Noto Sans SC 500 | Noto Sans SC 400 |
 
