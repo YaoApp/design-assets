@@ -175,12 +175,20 @@ Each font directory contains:
 
 | Version | File | Size | Description |
 |---------|------|------|-------------|
-| 1.0.0 | `preview-server/dist.zip` | ~2MB | Full preview-server distribution (Node.js) |
+| 0.2.0 | `preview-server/dist.zip` | ~175KB | Full preview-server distribution (Node.js + React SPA) |
 
 Extracted structure:
 ```
-dist/
+dist/             # Compiled server (Node.js)
   index.js        # Entry point
-  public/         # SPA interface (project list, sidebar, 404)
-  ...
+  capture/        # Screenshot / clip capture
+  editor/         # Element editor API
+  image/          # Image generation router
+  lib/            # File watcher, WebSocket manager, MIME
+  server/         # Static file server + live reload
+dist-client/      # React SPA (project list, sidebar, preview)
+package.json      # Runtime dependencies (ws, playwright, react, yaml)
+manifest.json     # PWA manifest
 ```
+
+After extracting, run `npm install --production` to install runtime dependencies.
