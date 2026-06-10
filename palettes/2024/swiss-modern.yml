@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# YaoApp/design-assets
+# ============================================================
+palette:
+  name: "Swiss Modern"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "creative"
+    style: "swiss-modern"
+    mode: "light"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#1A1A2E"
+      hover: "#16213E"
+      light: "#3A3A5C"
+
+    secondary:
+      base: "#6C7A89"
+      hover: "#5A6978"
+      light: "#8E9BAE"
+
+    accent:
+      base: "#E63946"
+      hover: "#C5303C"
+      light: "#F0707A"
+
+    surface:
+      base: "#FFFFFF"
+      alt: "#F8F9FA"
+      hover: "#F1F3F5"
+
+    text:
+      primary: "#1A1A2E"
+      secondary: "#5A6B7F"
+      disabled: "#A0AEC0"
+      inverse: "#FFFFFF"
+
+    border:
+      base: "#E2E8F0"
+      focus: "#1A1A2E"
+
+    semantic:
+      success: "#10B981"
+      warning: "#F59E0B"
+      error: "#EF4444"
+      info: "#3B82F6"
+
+  dark_mode:
+    surface:
+      base: "#0F0F23"
+      alt: "#1A1A2E"
+    text:
+      primary: "#E2E8F0"
+      secondary: "#A0AEC0"

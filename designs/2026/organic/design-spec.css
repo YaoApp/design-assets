@@ -1,0 +1,70 @@
+/* === Design Tokens for Organic === */
+/* Medium: web */
+/* Palette: palettes/2026/organic.yml */
+/* Source: curated */
+
+:root {
+  /* ======== Color System ======== */
+  --color-primary: #4A7C59;
+  --color-primary-hover: #3D6B4A;
+  --color-primary-light: #E8F0EA;
+  --color-secondary: #C67B5C;
+  --color-secondary-light: #FBF2EE;
+  --color-accent: #C67B5C;
+  --color-accent-hover: #B36A4D;
+  --color-surface: #FBF7F2;
+  --color-surface-secondary: #F5EFE6;
+  --color-background: #F0EADB;
+  --color-border: #D4C9B5;
+  --color-border-light: #E5DCC8;
+  --color-text-primary: #3D4A3A;
+  --color-text-secondary: #6B7A68;
+  --color-text-muted: #A0A898;
+  --color-success: #7CB342;
+  --color-warning: #F4A63D;
+  --color-error: #D4845A;
+  --color-info: #5C9A8B;
+
+  /* ======== Typography ======== */
+  --font-sans: 'Inter', 'Noto Sans SC', -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', 'Noto Serif SC', Georgia, serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --font-hand: 'LXGW WenKai', cursive;
+  --font-icon: 'Material Symbols Rounded';
+  --font-body: var(--font-sans);
+  --font-heading: 'DM Sans', var(--font-sans);
+  --text-base: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+
+  /* ======== Spacing ======== */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* ======== Border Radius ======== */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* ======== Shadows ======== */
+  --shadow-sm: 0 2px 8px rgba(74,124,89,0.06);
+  --shadow-md: 0 4px 16px rgba(74,124,89,0.08);
+  --shadow-lg: 0 8px 32px rgba(74,124,89,0.1);
+
+  /* ======== Layout ======== */
+  --page-width: 1200px;
+  --header-height: 64px;
+  --sidebar-width: 240px;
+}

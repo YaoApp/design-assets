@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# YaoApp/design-assets
+# ============================================================
+palette:
+  name: "Glassmorphism"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "saas"
+    style: "glassmorphism"
+    mode: "light"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#6366F1"
+      hover: "#5558E6"
+      light: "#8B8FF5"
+
+    secondary:
+      base: "#38BDF8"
+      hover: "#1EADF6"
+      light: "#6BD0FA"
+
+    accent:
+      base: "#FB7185"
+      hover: "#F95A6F"
+      light: "#FC97A5"
+
+    surface:
+      base: "#FFFFFF"
+      alt: "#F8FAFC"
+      hover: "#F1F5F9"
+
+    text:
+      primary: "#1E293B"
+      secondary: "#64748B"
+      disabled: "#94A3B8"
+      inverse: "#FFFFFF"
+
+    border:
+      base: "#E2E8F0"
+      focus: "#6366F1"
+
+    semantic:
+      success: "#10B981"
+      warning: "#F59E0B"
+      error: "#EF4444"
+      info: "#3B82F6"
+
+  dark_mode:
+    surface:
+      base: "#0F172A"
+      alt: "#1E1B4B"
+    text:
+      primary: "#E2E8F0"
+      secondary: "#94A3B8"

@@ -1,0 +1,70 @@
+/* === Design Tokens for Neumorphism === */
+/* Medium: web */
+/* Palette: palettes/2025/neumorphism.yml */
+/* Source: curated */
+
+:root {
+  /* ======== Color System ======== */
+  --color-primary: #6C7A89;
+  --color-primary-hover: #556270;
+  --color-primary-light: #D6DCE3;
+  --color-secondary: #A0B4C8;
+  --color-secondary-light: #E3EAF0;
+  --color-accent: #7EB6C5;
+  --color-accent-hover: #5E9DAD;
+  --color-surface: #E8ECF1;
+  --color-surface-secondary: #DDE3EA;
+  --color-background: #DCE2E8;
+  --color-border: #CDD4DC;
+  --color-border-light: #D5DBE2;
+  --color-text-primary: #3A4450;
+  --color-text-secondary: #6C7A89;
+  --color-text-muted: #A0AAB4;
+  --color-success: #7BBF6A;
+  --color-warning: #F0B458;
+  --color-error: #E07070;
+  --color-info: #7BA7CC;
+
+  /* ======== Typography ======== */
+  --font-sans: 'Inter', 'Noto Sans SC', -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', 'Noto Serif SC', Georgia, serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --font-hand: 'LXGW WenKai', cursive;
+  --font-icon: 'Material Symbols Rounded';
+  --font-body: var(--font-sans);
+  --font-heading: var(--font-sans);
+  --text-base: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+
+  /* ======== Spacing ======== */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* ======== Border Radius ======== */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  /* ======== Shadows ======== */
+  --shadow-sm: 3px 3px 6px #cfd4db, -3px -3px 6px #ffffff;
+  --shadow-md: 5px 5px 10px #cfd4db, -5px -5px 10px #ffffff;
+  --shadow-lg: 8px 8px 16px #cfd4db, -8px -8px 16px #ffffff;
+
+  /* ======== Layout ======== */
+  --page-width: 800px;
+  --header-height: 56px;
+  --sidebar-width: 240px;
+}

@@ -1,0 +1,36 @@
+# Design Scheme Manifest
+name: "Swiss Modern"
+version: "1.0"
+year: 2024
+source: "curated"
+
+industry: "creative"
+scenes:
+  - landing
+  - hero
+  - gallery
+medium: "web"
+
+style: "swiss-modern"
+mood: "clean"
+mode: "light"
+
+colors_ref: ".library/palettes/2024/swiss-modern.yml"
+
+typography:
+  body: "Inter"
+  heading: "Inter"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "grid"
+  max_width: 1440
+  responsive: true
+
+keywords:
+  - "swiss design"
+  - "grid layout"
+  - "clean typography"
+  - "asymmetric"
+  - "red accents"
+  - "minimal"

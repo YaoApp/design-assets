@@ -5,8 +5,8 @@
 > Updated: 2026-06-10
 > Raw Base: https://raw.githubusercontent.com/YaoApp/design-assets/main
 
-Design Agent (`smith.designer`) 的静态资产注册表。AI 启动时下载本文件（~5KB），
-按需拉取具体资产。所有路径相对于 Raw Base。
+Static asset registry for Design Agent (`smith.designer`). AI downloads this file on startup (~5KB),
+pulls assets on demand. All paths relative to Raw Base.
 
 ---
 
@@ -46,7 +46,7 @@ Design Agent (`smith.designer`) 的静态资产注册表。AI 启动时下载本
 ### Web
 | Name | File | Description |
 |------|------|-------------|
-| blank | `templates/web/blank.html` | 空白页面 + container + header |
+| blank | `templates/web/blank.html` | Blank page + container + header |
 | hero | `templates/web/hero.html` | Hero banner + content sections |
 | grid | `templates/web/grid.html` | Grid container + card placeholders |
 | form | `templates/web/form.html` | Centered form card |
@@ -56,18 +56,18 @@ Design Agent (`smith.designer`) 的静态资产注册表。AI 启动时下载本
 ### App
 | Name | File | Description |
 |------|------|-------------|
-| blank | `templates/app/blank.html` | 移动端空白页 (375px, touch-target 44px) |
-| grid | `templates/app/grid.html` | 移动端卡片网格 |
-| form | `templates/app/form.html` | 移动端表单页 |
-| list | `templates/app/list.html` | 移动端列表页 |
-| detail | `templates/app/detail.html` | 移动端详情页 |
+| blank | `templates/app/blank.html` | Mobile blank page (375px, touch-target 44px) |
+| grid | `templates/app/grid.html` | Mobile card grid |
+| form | `templates/app/form.html` | Mobile form page |
+| list | `templates/app/list.html` | Mobile list page |
+| detail | `templates/app/detail.html` | Mobile detail page |
 
 ### Poster
 | Name | File | Description |
 |------|------|-------------|
-| blank | `templates/poster/blank.html` | 海报空白页 (800px, vw 单位) |
-| hero | `templates/poster/hero.html` | 海报 Hero 区 |
-| grid | `templates/poster/grid.html` | 海报网格布局 |
+| blank | `templates/poster/blank.html` | Poster blank page (800px, vw units) |
+| hero | `templates/poster/hero.html` | Poster hero section |
+| grid | `templates/poster/grid.html` | Poster grid layout |
 
 ---
 
@@ -81,6 +81,10 @@ Design Agent (`smith.designer`) 的静态资产注册表。AI 启动时下载本
 | E-commerce Warm | `palettes/2024/ecommerce-warm.yml` | ecommerce | playful |
 | Startup Minimal | `palettes/2024/startup-minimal.yml` | startup | minimalist |
 | Creative Portfolio | `palettes/2024/creative-portfolio.yml` | creative | editorial |
+| Swiss Modern | `palettes/2024/swiss-modern.yml` | creative | swiss-modern |
+| Art Deco | `palettes/2024/art-deco.yml` | creative | art-deco |
+| Noir | `palettes/2024/noir.yml` | media | noir |
+| Industrial | `palettes/2024/industrial.yml` | startup | industrial |
 
 ### 2025
 | Name | File | Industry | Style |
@@ -90,6 +94,10 @@ Design Agent (`smith.designer`) 的静态资产注册表。AI 启动时下载本
 | Food App Warm | `palettes/2025/food-app-warm.yml` | food | playful |
 | Media Blog Serif | `palettes/2025/media-blog-serif.yml` | media | editorial |
 | Education Kid | `palettes/2025/education-kid.yml` | education | playful |
+| Glassmorphism | `palettes/2025/glassmorphism.yml` | saas | glassmorphism |
+| Neumorphism | `palettes/2025/neumorphism.yml` | healthcare | neumorphism |
+| Neobrutalism | `palettes/2025/neobrutalism.yml` | education | neobrutalism |
+| Vibrant | `palettes/2025/vibrant.yml` | ecommerce | vibrant |
 
 ### 2026
 | Name | File | Industry | Style |
@@ -99,12 +107,16 @@ Design Agent (`smith.designer`) 的静态资产注册表。AI 启动时下载本
 | Gaming Dark | `palettes/2026/gaming-dark.yml` | gaming | tech |
 | Travel Mood | `palettes/2026/travel-mood.yml` | travel | soft |
 | Poster Conference | `palettes/2026/poster-conference.yml` | creative | editorial |
+| Cyberpunk | `palettes/2026/cyberpunk.yml` | gaming | cyberpunk |
+| Retro Futurism | `palettes/2026/retro-futurism.yml` | creative | retro-futurism |
+| Organic | `palettes/2026/organic.yml` | food | organic |
+| Modern Agency | `palettes/2026/modern-agency.yml` | creative | modern-agency |
 
 ### Traditional
 | Name | File | Description |
 |------|------|-------------|
-| Yuebai Quiet | `palettes/traditional/yuebai-quiet.yml` | 月白 · 安静的东方 |
-| Tang Dynasty Warm | `palettes/traditional/tang-dynasty-warm.yml` | 唐风 · 温暖的盛世 |
+| Yuebai Quiet | `palettes/traditional/yuebai-quiet.yml` | Yuebai · Quiet East |
+| Tang Dynasty Warm | `palettes/traditional/tang-dynasty-warm.yml` | Tang Dynasty · Warm Golden Age |
 
 ---
 
@@ -118,6 +130,10 @@ Design Agent (`smith.designer`) 的静态资产注册表。AI 启动时下载本
 | E-commerce Warm | `designs/2024/ecommerce-warm/` | ecommerce | landing, list | web | playful |
 | Startup Minimal | `designs/2024/startup-minimal/` | startup | landing, hero | web | minimalist |
 | Creative Portfolio | `designs/2024/creative-portfolio/` | creative | gallery | web | editorial |
+| Swiss Modern | `designs/2024/swiss-modern/` | creative | landing, hero, gallery | web | swiss-modern |
+| Art Deco | `designs/2024/art-deco/` | creative | landing, hero | web | art-deco |
+| Noir | `designs/2024/noir/` | media | landing, hero, content | web | noir |
+| Industrial | `designs/2024/industrial/` | startup | landing, hero | web | industrial |
 
 ### 2025
 | Name | Directory | Industry | Scenes | Medium | Style |
@@ -143,12 +159,12 @@ Design Agent (`smith.designer`) 的静态资产注册表。AI 启动时下载本
 
 | Version | File | Size | Description |
 |---------|------|------|-------------|
-| 1.0.0 | `preview-server/dist.zip` | ~2MB | preview-server 完整发行包 (Node.js) |
+| 1.0.0 | `preview-server/dist.zip` | ~2MB | Full preview-server distribution (Node.js) |
 
-解压后结构:
+Extracted structure:
 ```
 dist/
-  index.js        # 入口
-  public/         # SPA 界面 (项目列表、侧边栏、404)
+  index.js        # Entry point
+  public/         # SPA interface (project list, sidebar, 404)
   ...
 ```

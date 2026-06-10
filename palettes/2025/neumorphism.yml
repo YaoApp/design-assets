@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# YaoApp/design-assets
+# ============================================================
+palette:
+  name: "Neumorphism"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "healthcare"
+    style: "neumorphism"
+    mode: "light"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#B8C5D6"
+      hover: "#A8B5C6"
+      light: "#CDD6E3"
+
+    secondary:
+      base: "#D4B5B5"
+      hover: "#C4A5A5"
+      light: "#E2CCCC"
+
+    accent:
+      base: "#8BB89B"
+      hover: "#7BAA8C"
+      light: "#A9CEB5"
+
+    surface:
+      base: "#E8ECF1"
+      alt: "#DFE3E8"
+      hover: "#D5DAE0"
+
+    text:
+      primary: "#4A5568"
+      secondary: "#8E9BAE"
+      disabled: "#BCC5D0"
+      inverse: "#FFFFFF"
+
+    border:
+      base: "#D1D7DE"
+      focus: "#B8C5D6"
+
+    semantic:
+      success: "#10B981"
+      warning: "#F59E0B"
+      error: "#EF4444"
+      info: "#3B82F6"
+
+  dark_mode:
+    surface:
+      base: "#2D3239"
+      alt: "#353B43"
+    text:
+      primary: "#E2E8F0"
+      secondary: "#8E9BAE"

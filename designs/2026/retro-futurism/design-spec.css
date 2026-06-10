@@ -1,0 +1,74 @@
+/* === Design Tokens for Retro Futurism === */
+/* Medium: web */
+/* Palette: palettes/2026/retro-futurism.yml */
+/* Source: curated */
+
+:root {
+  /* ======== Color System ======== */
+  --color-primary: #FF6B9D;
+  --color-primary-hover: #FF4081;
+  --color-primary-light: #2A0A1A;
+  --color-secondary: #00D4FF;
+  --color-secondary-light: #001A20;
+  --color-accent: #00D4FF;
+  --color-accent-hover: #00B8E0;
+  --color-surface: #1A0A2E;
+  --color-surface-secondary: #201040;
+  --color-background: #0E0520;
+  --color-border: #FF6B9D;
+  --color-border-light: #2A1040;
+  --color-text-primary: #FFE0EC;
+  --color-text-secondary: #C0A0D0;
+  --color-text-muted: #7A6090;
+  --color-success: #00FF88;
+  --color-warning: #FFD700;
+  --color-error: #FF3366;
+  --color-info: #00D4FF;
+
+  /* Grid overlay for synthwave aesthetic */
+  --bg-grid: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255,107,157,0.03) 2px, rgba(255,107,157,0.03) 4px),
+             repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(255,107,157,0.03) 2px, rgba(255,107,157,0.03) 4px);
+
+  /* ======== Typography ======== */
+  --font-sans: 'Inter', 'Noto Sans SC', -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', 'Noto Serif SC', Georgia, serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --font-hand: 'LXGW WenKai', cursive;
+  --font-icon: 'Material Symbols Rounded';
+  --font-body: var(--font-sans);
+  --font-heading: 'Space Grotesk', var(--font-sans);
+  --text-base: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+
+  /* ======== Spacing ======== */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* ======== Border Radius ======== */
+  --radius-sm: 0;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --radius-full: 9999px;
+
+  /* ======== Shadows ======== */
+  --shadow-sm: 0 0 8px rgba(255,107,157,0.2);
+  --shadow-md: 0 0 16px rgba(255,107,157,0.3);
+  --shadow-lg: 0 0 32px rgba(0,212,255,0.3);
+
+  /* ======== Layout ======== */
+  --page-width: 1200px;
+  --header-height: 56px;
+  --sidebar-width: 240px;
+}

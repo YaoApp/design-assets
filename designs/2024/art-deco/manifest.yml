@@ -1,0 +1,36 @@
+# Design Scheme Manifest
+name: "Art Deco"
+version: "1.0"
+year: 2024
+source: "curated"
+
+industry: "creative"
+scenes:
+  - landing
+  - hero
+medium: "web"
+
+style: "art-deco"
+mood: "luxurious"
+mode: "light"
+
+colors_ref: ".library/palettes/2024/art-deco.yml"
+
+typography:
+  body: "Inter"
+  heading: "Playfair Display"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "single-column"
+  max_width: 1200
+  responsive: true
+
+keywords:
+  - "geometric"
+  - "gold accents"
+  - "1920s"
+  - "glamour"
+  - "ornate"
+  - "luxury"
+  - "decorative"

@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# YaoApp/design-assets
+# ============================================================
+palette:
+  name: "Industrial"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "startup"
+    style: "industrial"
+    mode: "dark"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#F48120"
+      hover: "#E07310"
+      light: "#F6A05E"
+
+    secondary:
+      base: "#9CA3AF"
+      hover: "#8B93A0"
+      light: "#BCC3CC"
+
+    accent:
+      base: "#FFD600"
+      hover: "#E6C000"
+      light: "#FFE44D"
+
+    surface:
+      base: "#1C1C1E"
+      alt: "#151516"
+      hover: "#2C2C2E"
+
+    text:
+      primary: "#D1D5DB"
+      secondary: "#6B7280"
+      disabled: "#4B5563"
+      inverse: "#1C1C1E"
+
+    border:
+      base: "#3A3A3C"
+      focus: "#F48120"
+
+    semantic:
+      success: "#10B981"
+      warning: "#F59E0B"
+      error: "#EF4444"
+      info: "#3B82F6"
+
+  dark_mode:
+    surface:
+      base: "#1C1C1E"
+      alt: "#151516"
+    text:
+      primary: "#D1D5DB"
+      secondary: "#6B7280"

@@ -1,0 +1,36 @@
+# Design Scheme Manifest
+name: "Neobrutalism"
+version: "1.0"
+year: 2025
+source: "curated"
+
+industry: "education"
+scenes:
+  - landing
+  - hero
+  - list
+medium: "web"
+
+style: "neobrutalism"
+mood: "bold"
+mode: "light"
+
+colors_ref: ".library/palettes/2025/neobrutalism.yml"
+
+typography:
+  body: "Inter"
+  heading: "Space Grotesk"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "single-column"
+  max_width: 1200
+  responsive: true
+
+keywords:
+  - "neobrutalism"
+  - "bold"
+  - "hard shadows"
+  - "primary colors"
+  - "raw"
+  - "loud"

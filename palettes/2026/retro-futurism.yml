@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# YaoApp/design-assets
+# ============================================================
+palette:
+  name: "Retro Futurism"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "creative"
+    style: "retro-futurism"
+    mode: "dark"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#FF6B9D"
+      hover: "#E6588A"
+      light: "#FF99BB"
+
+    secondary:
+      base: "#00D4FF"
+      hover: "#00BEE6"
+      light: "#66E3FF"
+
+    accent:
+      base: "#FFD700"
+      hover: "#E6C200"
+      light: "#FFE44D"
+
+    surface:
+      base: "#1A0A2E"
+      alt: "#1E1040"
+      hover: "#2A1652"
+
+    text:
+      primary: "#FFFFFF"
+      secondary: "#8E8EB3"
+      disabled: "#5C5C8A"
+      inverse: "#1A0A2E"
+
+    border:
+      base: "#3D2A6B"
+      focus: "#FF6B9D"
+
+    semantic:
+      success: "#10B981"
+      warning: "#F59E0B"
+      error: "#EF4444"
+      info: "#00D4FF"
+
+  dark_mode:
+    surface:
+      base: "#1A0A2E"
+      alt: "#1E1040"
+    text:
+      primary: "#FFFFFF"
+      secondary: "#8E8EB3"

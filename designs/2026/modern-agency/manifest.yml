@@ -1,0 +1,37 @@
+# Design Scheme Manifest
+name: "Modern Agency"
+version: "1.0"
+year: 2026
+source: "curated"
+
+industry: "creative"
+scenes:
+  - landing
+  - hero
+  - gallery
+medium: "web"
+
+style: "modern-agency"
+mood: "confident"
+mode: "light"
+
+colors_ref: ".library/palettes/2026/modern-agency.yml"
+
+typography:
+  body: "Inter"
+  heading: "Space Grotesk"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "single-column"
+  max_width: 1440
+  responsive: true
+
+keywords:
+  - "agency"
+  - "bold"
+  - "oversized"
+  - "kinetic"
+  - "confident"
+  - "modern"
+  - "typographic"

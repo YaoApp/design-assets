@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# YaoApp/design-assets
+# ============================================================
+palette:
+  name: "Neobrutalism"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "education"
+    style: "neobrutalism"
+    mode: "light"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#FFDE00"
+      hover: "#E6C800"
+      light: "#FFE84D"
+
+    secondary:
+      base: "#FF3366"
+      hover: "#E61A4D"
+      light: "#FF7093"
+
+    accent:
+      base: "#0047FF"
+      hover: "#003EE6"
+      light: "#4D7BFF"
+
+    surface:
+      base: "#FFFDF7"
+      alt: "#FFF9E6"
+      hover: "#FFF3CC"
+
+    text:
+      primary: "#000000"
+      secondary: "#333333"
+      disabled: "#999999"
+      inverse: "#FFFFFF"
+
+    border:
+      base: "#000000"
+      focus: "#0047FF"
+
+    semantic:
+      success: "#10B981"
+      warning: "#F59E0B"
+      error: "#EF4444"
+      info: "#3B82F6"
+
+  dark_mode:
+    surface:
+      base: "#000000"
+      alt: "#111111"
+    text:
+      primary: "#FFDE00"
+      secondary: "#FFFFFF"

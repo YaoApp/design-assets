@@ -1,0 +1,36 @@
+# Design Scheme Manifest
+name: "Cyberpunk"
+version: "1.0"
+year: 2026
+source: "curated"
+
+industry: "gaming"
+scenes:
+  - landing
+  - hero
+medium: "web"
+
+style: "cyberpunk"
+mood: "edgy"
+mode: "dark"
+
+colors_ref: ".library/palettes/2026/cyberpunk.yml"
+
+typography:
+  body: "JetBrains Mono"
+  heading: "Space Grotesk"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "single-column"
+  max_width: 1200
+  responsive: true
+
+keywords:
+  - "cyberpunk"
+  - "neon"
+  - "dystopian"
+  - "glitch"
+  - "futuristic"
+  - "dark"
+  - "terminal"

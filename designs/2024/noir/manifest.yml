@@ -1,0 +1,36 @@
+# Design Scheme Manifest
+name: "Noir"
+version: "1.0"
+year: 2024
+source: "curated"
+
+industry: "media"
+scenes:
+  - landing
+  - hero
+  - content
+medium: "web"
+
+style: "noir"
+mood: "mysterious"
+mode: "dark"
+
+colors_ref: ".library/palettes/2024/noir.yml"
+
+typography:
+  body: "Inter"
+  heading: "Playfair Display"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "single-column"
+  max_width: 960
+  responsive: true
+
+keywords:
+  - "film noir"
+  - "black and white"
+  - "high contrast"
+  - "dramatic"
+  - "mystery"
+  - "cinematic"

@@ -1,0 +1,37 @@
+# Design Scheme Manifest
+name: "Vibrant"
+version: "1.0"
+year: 2025
+source: "curated"
+
+industry: "ecommerce"
+scenes:
+  - landing
+  - hero
+  - gallery
+medium: "web"
+
+style: "vibrant"
+mood: "energetic"
+mode: "light"
+
+colors_ref: ".library/palettes/2025/vibrant.yml"
+
+typography:
+  body: "Inter"
+  heading: "DM Sans"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "grid"
+  max_width: 1440
+  responsive: true
+
+keywords:
+  - "vibrant"
+  - "colorful"
+  - "energetic"
+  - "gradient"
+  - "bold"
+  - "saturated"
+  - "fun"

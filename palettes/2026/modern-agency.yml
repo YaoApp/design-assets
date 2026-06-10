@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# YaoApp/design-assets
+# ============================================================
+palette:
+  name: "Modern Agency"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "creative"
+    style: "modern-agency"
+    mode: "light"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#000000"
+      hover: "#1A1A1A"
+      light: "#333333"
+
+    secondary:
+      base: "#2563EB"
+      hover: "#1D4ED8"
+      light: "#60A5FA"
+
+    accent:
+      base: "#FF5B14"
+      hover: "#E64D0A"
+      light: "#FF8C5C"
+
+    surface:
+      base: "#FFFFFF"
+      alt: "#F5F5F5"
+      hover: "#EBEBEB"
+
+    text:
+      primary: "#000000"
+      secondary: "#404040"
+      disabled: "#9E9E9E"
+      inverse: "#FFFFFF"
+
+    border:
+      base: "#E0E0E0"
+      focus: "#000000"
+
+    semantic:
+      success: "#10B981"
+      warning: "#F59E0B"
+      error: "#EF4444"
+      info: "#3B82F6"
+
+  dark_mode:
+    surface:
+      base: "#000000"
+      alt: "#0D0D0D"
+    text:
+      primary: "#FFFFFF"
+      secondary: "#A0A0A0"

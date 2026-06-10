@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# YaoApp/design-assets
+# ============================================================
+palette:
+  name: "Organic"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "food"
+    style: "organic"
+    mode: "light"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#4A7C59"
+      hover: "#3E6B4B"
+      light: "#6D9A7A"
+
+    secondary:
+      base: "#C67B5C"
+      hover: "#B56A4B"
+      light: "#D69B82"
+
+    accent:
+      base: "#E8B44F"
+      hover: "#D6A33D"
+      light: "#EEC87A"
+
+    surface:
+      base: "#FBF7F2"
+      alt: "#F2EBE1"
+      hover: "#E8DFD2"
+
+    text:
+      primary: "#3D2C1E"
+      secondary: "#8B7E6B"
+      disabled: "#B5AA99"
+      inverse: "#FBF7F2"
+
+    border:
+      base: "#D9CEB8"
+      focus: "#4A7C59"
+
+    semantic:
+      success: "#4A7C59"
+      warning: "#E8B44F"
+      error: "#C8553D"
+      info: "#3B82F6"
+
+  dark_mode:
+    surface:
+      base: "#1A2F1D"
+      alt: "#243B28"
+    text:
+      primary: "#F2EBE1"
+      secondary: "#B5AA99"

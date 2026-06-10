@@ -1,0 +1,36 @@
+# Design Scheme Manifest
+name: "Neumorphism"
+version: "1.0"
+year: 2025
+source: "curated"
+
+industry: "healthcare"
+scenes:
+  - dashboard
+  - profile
+  - form
+medium: "web"
+
+style: "neumorphism"
+mood: "soft"
+mode: "light"
+
+colors_ref: ".library/palettes/2025/neumorphism.yml"
+
+typography:
+  body: "Inter"
+  heading: "Inter"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "single-column"
+  max_width: 800
+  responsive: true
+
+keywords:
+  - "neumorphism"
+  - "soft UI"
+  - "embossed"
+  - "debossed"
+  - "pastel"
+  - "subtle"

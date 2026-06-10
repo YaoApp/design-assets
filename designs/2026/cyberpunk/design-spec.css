@@ -1,0 +1,70 @@
+/* === Design Tokens for Cyberpunk === */
+/* Medium: web */
+/* Palette: palettes/2026/cyberpunk.yml */
+/* Source: curated */
+
+:root {
+  /* ======== Color System ======== */
+  --color-primary: #00F0FF;
+  --color-primary-hover: #00D4E0;
+  --color-primary-light: #001A1A;
+  --color-secondary: #FF00FF;
+  --color-secondary-light: #1A001A;
+  --color-accent: #FF00FF;
+  --color-accent-hover: #E000E0;
+  --color-surface: #000000;
+  --color-surface-secondary: #0A0A0A;
+  --color-background: #000000;
+  --color-border: #00F0FF;
+  --color-border-light: #003333;
+  --color-text-primary: #00F0FF;
+  --color-text-secondary: #00AA88;
+  --color-text-muted: #005555;
+  --color-success: #00FF41;
+  --color-warning: #FFD700;
+  --color-error: #FF073A;
+  --color-info: #00D4FF;
+
+  /* ======== Typography ======== */
+  --font-sans: 'Inter', 'Noto Sans SC', -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', 'Noto Serif SC', Georgia, serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --font-hand: 'LXGW WenKai', cursive;
+  --font-icon: 'Material Symbols Rounded';
+  --font-body: var(--font-mono);
+  --font-heading: 'Space Grotesk', var(--font-sans);
+  --text-base: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+
+  /* ======== Spacing ======== */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* ======== Border Radius ======== */
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-full: 9999px;
+
+  /* ======== Shadows ======== */
+  --shadow-sm: 0 0 10px rgba(0,240,255,0.15);
+  --shadow-md: 0 0 20px rgba(0,240,255,0.3);
+  --shadow-lg: 0 0 40px rgba(0,240,255,0.4);
+
+  /* ======== Layout ======== */
+  --page-width: 1200px;
+  --header-height: 56px;
+  --sidebar-width: 240px;
+}

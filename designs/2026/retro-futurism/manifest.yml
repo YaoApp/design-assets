@@ -1,0 +1,37 @@
+# Design Scheme Manifest
+name: "Retro Futurism"
+version: "1.0"
+year: 2026
+source: "curated"
+
+industry: "creative"
+scenes:
+  - landing
+  - hero
+  - gallery
+medium: "web"
+
+style: "retro-futurism"
+mood: "nostalgic"
+mode: "dark"
+
+colors_ref: ".library/palettes/2026/retro-futurism.yml"
+
+typography:
+  body: "Inter"
+  heading: "Space Grotesk"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "single-column"
+  max_width: 1200
+  responsive: true
+
+keywords:
+  - "synthwave"
+  - "retro"
+  - "80s"
+  - "neon"
+  - "outrun"
+  - "chrome"
+  - "nostalgia"

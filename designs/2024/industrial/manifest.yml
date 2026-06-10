@@ -1,0 +1,35 @@
+# Design Scheme Manifest
+name: "Industrial"
+version: "1.0"
+year: 2024
+source: "curated"
+
+industry: "startup"
+scenes:
+  - landing
+  - hero
+medium: "web"
+
+style: "industrial"
+mood: "raw"
+mode: "dark"
+
+colors_ref: ".library/palettes/2024/industrial.yml"
+
+typography:
+  body: "Inter"
+  heading: "Space Grotesk"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "single-column"
+  max_width: 1200
+  responsive: true
+
+keywords:
+  - "industrial"
+  - "raw"
+  - "utilitarian"
+  - "warehouse"
+  - "exposed"
+  - "functional"

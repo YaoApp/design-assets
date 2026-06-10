@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# YaoApp/design-assets
+# ============================================================
+palette:
+  name: "Vibrant"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "ecommerce"
+    style: "vibrant"
+    mode: "light"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#8B5CF6"
+      hover: "#7C3AED"
+      light: "#A78BFA"
+
+    secondary:
+      base: "#F97316"
+      hover: "#EA580C"
+      light: "#FB923C"
+
+    accent:
+      base: "#84CC16"
+      hover: "#65A30D"
+      light: "#A3E635"
+
+    surface:
+      base: "#FFFFFF"
+      alt: "#F5F3FF"
+      hover: "#EDE9FE"
+
+    text:
+      primary: "#2D1B69"
+      secondary: "#6D5D9E"
+      disabled: "#A599CC"
+      inverse: "#FFFFFF"
+
+    border:
+      base: "#DDD6FE"
+      focus: "#8B5CF6"
+
+    semantic:
+      success: "#10B981"
+      warning: "#F59E0B"
+      error: "#EF4444"
+      info: "#3B82F6"
+
+  dark_mode:
+    surface:
+      base: "#1A103C"
+      alt: "#2D1B69"
+    text:
+      primary: "#EDE9FE"
+      secondary: "#A78BFA"

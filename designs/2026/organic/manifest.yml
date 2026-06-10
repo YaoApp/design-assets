@@ -1,0 +1,37 @@
+# Design Scheme Manifest
+name: "Organic"
+version: "1.0"
+year: 2026
+source: "curated"
+
+industry: "food"
+scenes:
+  - landing
+  - hero
+  - gallery
+medium: "web"
+
+style: "organic"
+mood: "warm"
+mode: "light"
+
+colors_ref: ".library/palettes/2026/organic.yml"
+
+typography:
+  body: "Inter"
+  heading: "DM Sans"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "grid"
+  max_width: 1200
+  responsive: true
+
+keywords:
+  - "organic"
+  - "natural"
+  - "earthy"
+  - "curved"
+  - "warm"
+  - "sustainable"
+  - "handcrafted"

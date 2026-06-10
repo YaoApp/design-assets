@@ -1,0 +1,37 @@
+# Design Scheme Manifest
+name: "Glassmorphism"
+version: "1.0"
+year: 2025
+source: "curated"
+
+industry: "saas"
+scenes:
+  - landing
+  - hero
+  - dashboard
+medium: "web"
+
+style: "glassmorphism"
+mood: "ethereal"
+mode: "light"
+
+colors_ref: ".library/palettes/2025/glassmorphism.yml"
+
+typography:
+  body: "Inter"
+  heading: "Inter"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "grid"
+  max_width: 1440
+  responsive: true
+
+keywords:
+  - "glass"
+  - "frosted"
+  - "blur"
+  - "translucent"
+  - "layered"
+  - "depth"
+  - "modern"

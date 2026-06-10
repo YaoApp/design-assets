@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# YaoApp/design-assets
+# ============================================================
+palette:
+  name: "Cyberpunk"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "gaming"
+    style: "cyberpunk"
+    mode: "dark"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#00F0FF"
+      hover: "#00D8E6"
+      light: "#66F5FF"
+
+    secondary:
+      base: "#FF00FF"
+      hover: "#E600E6"
+      light: "#FF66FF"
+
+    accent:
+      base: "#00FF41"
+      hover: "#00E639"
+      light: "#66FF8D"
+
+    surface:
+      base: "#000000"
+      alt: "#0A0A0A"
+      hover: "#141414"
+
+    text:
+      primary: "#00F0FF"
+      secondary: "#006060"
+      disabled: "#004040"
+      inverse: "#000000"
+
+    border:
+      base: "#00F0FF"
+      focus: "#FF00FF"
+
+    semantic:
+      success: "#00FF41"
+      warning: "#F59E0B"
+      error: "#EF4444"
+      info: "#00F0FF"
+
+  dark_mode:
+    surface:
+      base: "#000000"
+      alt: "#0A0A0A"
+    text:
+      primary: "#00F0FF"
+      secondary: "#006060"
