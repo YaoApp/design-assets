@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# yaoapp/design-assets
+# ============================================================
+palette:
+  name: "月白·安静的东方"
+  version: "1.0"
+  source: "traditional"
+  source_url: null
+
+  tags:
+    industry: "creative"
+    style: "editorial"
+    mode: "light"
+    season: null
+    culture: "chinese-traditional"
+
+  colors:
+    primary:
+      base: "#EEF7F2"
+      hover: "#D5EBE0"
+      light: "#F5FAF7"
+
+    secondary:
+      base: "#AED9D4"
+      hover: "#8CC7C0"
+      light: "#D4EDE9"
+
+    accent:
+      base: "#4F84FF"
+      hover: "#3B6DE0"
+      light: "#E0E8FF"
+
+    surface:
+      base: "#FCFDFC"
+      alt: "#F6F9F7"
+      hover: "#EEF4F0"
+
+    text:
+      primary: "#2D3748"
+      secondary: "#5A6B7F"
+      disabled: "#B0BEC5"
+      inverse: "#FFFFFF"
+
+    border:
+      base: "#D4EBE0"
+      focus: "#4F84FF"
+
+    semantic:
+      success: "#10B981"
+      warning: "#F59E0B"
+      error: "#EF4444"
+      info: "#3B82F6"
+
+  dark_mode:
+    surface:
+      base: "#1A2E28"
+      alt: "#233D35"
+    text:
+      primary: "#EEF4F0"
+      secondary: "#8AA89A"

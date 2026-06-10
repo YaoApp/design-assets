@@ -1,0 +1,33 @@
+# Design Scheme Manifest
+name: "Realestate Luxury"
+version: "1.0"
+year: 2026
+source: "curated"
+
+industry: "realestate"
+scenes:
+  - landing
+  - detail
+medium: "web"
+
+style: "luxury"
+mood: "warm"
+mode: "light"
+
+colors_ref: ".library/palettes/2026/realestate-luxury.yml"
+
+typography:
+  body: "Inter"
+  heading: "Playfair Display"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "grid"
+  max_width: 1200
+  responsive: true
+
+keywords:
+  - "房产"
+  - "奢华"
+  - "楼盘"
+  - "高端"

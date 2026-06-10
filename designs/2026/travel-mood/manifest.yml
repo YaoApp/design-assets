@@ -1,0 +1,33 @@
+# Design Scheme Manifest
+name: "Travel Mood"
+version: "1.0"
+year: 2026
+source: "curated"
+
+industry: "travel"
+scenes:
+  - landing
+  - gallery
+medium: "web"
+
+style: "soft"
+mood: "calm"
+mode: "light"
+
+colors_ref: ".library/palettes/2026/travel-mood.yml"
+
+typography:
+  body: "Inter"
+  heading: "Playfair Display"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "grid"
+  max_width: 1200
+  responsive: true
+
+keywords:
+  - "旅游"
+  - "酒店"
+  - "风景"
+  - "轻松"

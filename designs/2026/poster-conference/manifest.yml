@@ -1,0 +1,32 @@
+# Design Scheme Manifest
+name: "Poster Conference"
+version: "1.0"
+year: 2026
+source: "curated"
+
+industry: "creative"
+scenes:
+  - poster
+medium: "poster"
+
+style: "editorial"
+mood: "bold"
+mode: "light"
+
+colors_ref: ".library/palettes/2026/poster-conference.yml"
+
+typography:
+  body: "Open Sans"
+  heading: "Playfair Display"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "single-column"
+  max_width: 800
+  responsive: false
+
+keywords:
+  - "海报"
+  - "会议"
+  - "印刷"
+  - "视觉"

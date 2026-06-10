@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untitled Poster</title>
+  <link rel="stylesheet" href="/api/fonts.css">
+  <style>
+    :root {
+      --color-primary: #111827;
+      --color-primary-light: #F9FAFB;
+      --color-secondary: #4B5563;
+      --color-accent: #DC2626;
+      --color-surface: #FFFFFF;
+      --color-surface-alt: #F5F5F0;
+      --color-surface-hover: #F3F4F6;
+      --color-text-primary: #111827;
+      --color-text-secondary: #6B7280;
+      --color-text-disabled: #D1D5DB;
+      --color-border: #E5E7EB;
+      --color-border-focus: #111827;
+      --color-success: #10B981;
+      --color-warning: #F59E0B;
+      --color-error: #EF4444;
+      --color-info: #3B82F6;
+      --font-sans: 'Inter', 'Noto Sans SC', -apple-system, sans-serif;
+      --font-serif: 'Playfair Display', 'Noto Serif SC', Georgia, serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+      --font-body: var(--font-serif);
+      --font-heading: var(--font-serif);
+      --text-base: 1.2vw;
+      --text-sm: 0.9vw;
+      --text-xs: 0.75vw;
+      --text-lg: 1.5vw;
+      --text-xl: 2vw;
+      --text-2xl: 2.5vw;
+      --text-3xl: 5vw;
+      --text-4xl: 8vw;
+      --space-1: 0.25vw;
+      --space-2: 0.5vw;
+      --space-3: 1vw;
+      --space-4: 1.5vw;
+      --space-6: 2.5vw;
+      --space-8: 4vw;
+      --space-12: 6vw;
+      --space-16: 8vw;
+      --radius-sm: 4px;
+      --radius-md: 8px;
+      --radius-lg: 12px;
+      --radius-full: 9999px;
+      --shadow-sm: none;
+      --shadow-md: none;
+      --shadow-lg: none;
+      --page-width: 800px;
+      --poster-print-width: 800px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-body);
+      font-size: var(--text-base);
+      background: var(--color-surface);
+      color: var(--color-text-primary);
+      line-height: 1.5;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .container {
+      max-width: var(--page-width);
+      margin: 0 auto;
+      padding: var(--space-8) var(--space-6);
+    }
+
+    .poster-title {
+      font-family: var(--font-heading);
+      font-size: var(--text-4xl);
+      font-weight: 900;
+      line-height: 1.1;
+      margin-bottom: var(--space-6);
+      letter-spacing: -0.02em;
+    }
+    .poster-body {
+      font-family: var(--font-body);
+      font-size: var(--text-lg);
+      line-height: 1.7;
+      color: var(--color-text-secondary);
+      max-width: 600px;
+    }
+    .poster-meta {
+      margin-top: var(--space-12);
+      padding-top: var(--space-4);
+      border-top: 2px solid var(--color-text-primary);
+      font-size: var(--text-sm);
+      color: var(--color-text-secondary);
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1 class="poster-title">Poster Title<br>Goes Here</h1>
+    <div class="poster-body">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+    <div class="poster-meta">
+      Event Name &bull; June 2026 &bull; Location, City
+    </div>
+  </main>
+</body>
+</html>

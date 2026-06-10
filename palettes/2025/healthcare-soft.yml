@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# yaoapp/design-assets
+# ============================================================
+palette:
+  name: "Healthcare Soft"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "healthcare"
+    style: "soft"
+    mode: "light"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#0891B2"
+      hover: "#0E7490"
+      light: "#ECFEFF"
+
+    secondary:
+      base: "#06B6D4"
+      hover: "#0891B2"
+      light: "#CFFAFE"
+
+    accent:
+      base: "#14B8A6"
+      hover: "#0D9488"
+      light: "#CCFBF1"
+
+    surface:
+      base: "#FFFFFF"
+      alt: "#F0FDFA"
+      hover: "#E6FFFA"
+
+    text:
+      primary: "#134E4A"
+      secondary: "#5F8B89"
+      disabled: "#CCDBDA"
+      inverse: "#FFFFFF"
+
+    border:
+      base: "#CCDBDA"
+      focus: "#0891B2"
+
+    semantic:
+      success: "#10B981"
+      warning: "#F59E0B"
+      error: "#EF4444"
+      info: "#3B82F6"
+
+  dark_mode:
+    surface:
+      base: "#134E4A"
+      alt: "#1A2E2C"
+    text:
+      primary: "#F0FDFA"
+      secondary: "#99D6D2"

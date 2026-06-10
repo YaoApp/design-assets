@@ -1,0 +1,32 @@
+# Design Scheme Manifest
+name: "Media Blog Serif"
+version: "1.0"
+year: 2025
+source: "curated"
+
+industry: "media"
+scenes:
+  - content
+medium: "web"
+
+style: "editorial"
+mood: "professional"
+mode: "light"
+
+colors_ref: ".library/palettes/2025/media-blog-serif.yml"
+
+typography:
+  body: "Open Sans"
+  heading: "Playfair Display"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "single-column"
+  max_width: 800
+  responsive: true
+
+keywords:
+  - "博客"
+  - "内容"
+  - "杂志"
+  - "阅读"

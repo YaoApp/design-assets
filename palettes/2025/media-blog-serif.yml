@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# yaoapp/design-assets
+# ============================================================
+palette:
+  name: "Media Blog Serif"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "media"
+    style: "editorial"
+    mode: "light"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#1E293B"
+      hover: "#0F172A"
+      light: "#F1F5F9"
+
+    secondary:
+      base: "#475569"
+      hover: "#334155"
+      light: "#F8FAFC"
+
+    accent:
+      base: "#DC2626"
+      hover: "#B91C1C"
+      light: "#FEF2F2"
+
+    surface:
+      base: "#FEFEFE"
+      alt: "#F8F8F8"
+      hover: "#F5F5F4"
+
+    text:
+      primary: "#1C1917"
+      secondary: "#57534E"
+      disabled: "#D6D3D1"
+      inverse: "#FEFEFE"
+
+    border:
+      base: "#E7E5E4"
+      focus: "#1E293B"
+
+    semantic:
+      success: "#16A34A"
+      warning: "#D97706"
+      error: "#DC2626"
+      info: "#2563EB"
+
+  dark_mode:
+    surface:
+      base: "#1C1917"
+      alt: "#292524"
+    text:
+      primary: "#F5F5F4"
+      secondary: "#A8A29E"

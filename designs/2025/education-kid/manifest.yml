@@ -1,0 +1,33 @@
+# Design Scheme Manifest
+name: "Education Kid"
+version: "1.0"
+year: 2025
+source: "curated"
+
+industry: "education"
+scenes:
+  - landing
+  - gallery
+medium: "web"
+
+style: "playful"
+mood: "warm"
+mode: "light"
+
+colors_ref: ".library/palettes/2025/education-kid.yml"
+
+typography:
+  body: "Inter"
+  heading: "DM Sans"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "grid"
+  max_width: 1200
+  responsive: true
+
+keywords:
+  - "教育"
+  - "儿童"
+  - "课程"
+  - "活泼"

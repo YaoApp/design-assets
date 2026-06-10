@@ -1,0 +1,33 @@
+# Design Scheme Manifest
+name: "E-commerce Warm"
+version: "1.0"
+year: 2024
+source: "curated"
+
+industry: "ecommerce"
+scenes:
+  - landing
+  - list
+medium: "web"
+
+style: "playful"
+mood: "warm"
+mode: "light"
+
+colors_ref: ".library/palettes/2024/ecommerce-warm.yml"
+
+typography:
+  body: "Inter"
+  heading: "DM Sans"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "grid"
+  max_width: 1200
+  responsive: true
+
+keywords:
+  - "电商"
+  - "促销"
+  - "产品展示"
+  - "活动页"

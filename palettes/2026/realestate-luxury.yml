@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# yaoapp/design-assets
+# ============================================================
+palette:
+  name: "Realestate Luxury"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "realestate"
+    style: "luxury"
+    mode: "light"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#92400E"
+      hover: "#78350F"
+      light: "#FEF3C7"
+
+    secondary:
+      base: "#B45309"
+      hover: "#92400E"
+      light: "#FDE68A"
+
+    accent:
+      base: "#1E3A5F"
+      hover: "#15294A"
+      light: "#E0E7FF"
+
+    surface:
+      base: "#FDFBF7"
+      alt: "#FFFFFF"
+      hover: "#F8F4EB"
+
+    text:
+      primary: "#291804"
+      secondary: "#6B4F2E"
+      disabled: "#D4C4A8"
+      inverse: "#FDFBF7"
+
+    border:
+      base: "#D4C4A8"
+      focus: "#92400E"
+
+    semantic:
+      success: "#22C55E"
+      warning: "#D97706"
+      error: "#DC2626"
+      info: "#3B82F6"
+
+  dark_mode:
+    surface:
+      base: "#1C1408"
+      alt: "#291A08"
+    text:
+      primary: "#F8F4EB"
+      secondary: "#C4B08A"

@@ -1,0 +1,32 @@
+# Design Scheme Manifest
+name: "Creative Portfolio"
+version: "1.0"
+year: 2024
+source: "curated"
+
+industry: "creative"
+scenes:
+  - gallery
+medium: "web"
+
+style: "editorial"
+mood: "creative"
+mode: "light"
+
+colors_ref: ".library/palettes/2024/creative-portfolio.yml"
+
+typography:
+  body: "Open Sans"
+  heading: "Playfair Display"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "grid"
+  max_width: 1200
+  responsive: true
+
+keywords:
+  - "作品集"
+  - "创意"
+  - "画廊"
+  - "设计"

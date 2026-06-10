@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# yaoapp/design-assets
+# ============================================================
+palette:
+  name: "Social Minimal"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "social"
+    style: "minimalist"
+    mode: "light"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#2563EB"
+      hover: "#1D4ED8"
+      light: "#DBEAFE"
+
+    secondary:
+      base: "#60A5FA"
+      hover: "#3B82F6"
+      light: "#EFF6FF"
+
+    accent:
+      base: "#F97316"
+      hover: "#EA580C"
+      light: "#FFF7ED"
+
+    surface:
+      base: "#FFFFFF"
+      alt: "#F9FAFB"
+      hover: "#F3F4F6"
+
+    text:
+      primary: "#111827"
+      secondary: "#6B7280"
+      disabled: "#D1D5DB"
+      inverse: "#FFFFFF"
+
+    border:
+      base: "#E5E7EB"
+      focus: "#2563EB"
+
+    semantic:
+      success: "#10B981"
+      warning: "#F59E0B"
+      error: "#EF4444"
+      info: "#3B82F6"
+
+  dark_mode:
+    surface:
+      base: "#1F2937"
+      alt: "#111827"
+    text:
+      primary: "#F9FAFB"
+      secondary: "#9CA3AF"

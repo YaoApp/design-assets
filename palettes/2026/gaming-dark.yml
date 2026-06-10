@@ -1,0 +1,55 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# yaoapp/design-assets
+# ============================================================
+palette:
+  name: "Gaming Dark"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "gaming"
+    style: "tech"
+    mode: "dark"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#8B5CF6"
+      hover: "#A78BFA"
+      light: "#4C1D95"
+
+    secondary:
+      base: "#EC4899"
+      hover: "#F472B6"
+      light: "#831843"
+
+    accent:
+      base: "#22D3EE"
+      hover: "#67E8F9"
+      light: "#164E63"
+
+    surface:
+      base: "#0A0A1A"
+      alt: "#12122A"
+      hover: "#1A1A3E"
+
+    text:
+      primary: "#E2E2F0"
+      secondary: "#8B8BB0"
+      disabled: "#464670"
+      inverse: "#0A0A1A"
+
+    border:
+      base: "#2A2A5A"
+      focus: "#8B5CF6"
+
+    semantic:
+      success: "#34D399"
+      warning: "#FBBF24"
+      error: "#F87171"
+      info: "#38BDF8"
+
+  dark_mode: null

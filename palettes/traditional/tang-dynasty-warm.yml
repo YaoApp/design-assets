@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# yaoapp/design-assets
+# ============================================================
+palette:
+  name: "唐风·温暖的盛世"
+  version: "1.0"
+  source: "traditional"
+  source_url: null
+
+  tags:
+    industry: "creative"
+    style: "luxury"
+    mode: "light"
+    season: null
+    culture: "chinese-traditional"
+
+  colors:
+    primary:
+      base: "#C4543E"
+      hover: "#A04330"
+      light: "#FDE8E3"
+
+    secondary:
+      base: "#D49535"
+      hover: "#B87A28"
+      light: "#FDF3E0"
+
+    accent:
+      base: "#2D5A4B"
+      hover: "#1E4235"
+      light: "#E3EFE8"
+
+    surface:
+      base: "#FDFAF3"
+      alt: "#FFFFFF"
+      hover: "#F9F2E2"
+
+    text:
+      primary: "#3D2C1E"
+      secondary: "#6B5A4A"
+      disabled: "#C4B8A8"
+      inverse: "#FDFAF3"
+
+    border:
+      base: "#E0D5C0"
+      focus: "#C4543E"
+
+    semantic:
+      success: "#4A8C5C"
+      warning: "#D49535"
+      error: "#C4543E"
+      info: "#3B82F6"
+
+  dark_mode:
+    surface:
+      base: "#2D2018"
+      alt: "#3D2C1E"
+    text:
+      primary: "#F9F2E2"
+      secondary: "#C4B8A8"

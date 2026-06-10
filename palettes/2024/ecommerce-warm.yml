@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# yaoapp/design-assets
+# ============================================================
+palette:
+  name: "E-commerce Warm"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "ecommerce"
+    style: "playful"
+    mode: "light"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#F97316"
+      hover: "#EA580C"
+      light: "#FFF7ED"
+
+    secondary:
+      base: "#F59E0B"
+      hover: "#D97706"
+      light: "#FEF3C7"
+
+    accent:
+      base: "#8B5CF6"
+      hover: "#7C3AED"
+      light: "#EDE9FE"
+
+    surface:
+      base: "#FFFFFF"
+      alt: "#FFFBEB"
+      hover: "#FFF7ED"
+
+    text:
+      primary: "#1C1917"
+      secondary: "#57534E"
+      disabled: "#D6D3D1"
+      inverse: "#FFFFFF"
+
+    border:
+      base: "#E7E5E4"
+      focus: "#F97316"
+
+    semantic:
+      success: "#22C55E"
+      warning: "#F59E0B"
+      error: "#EF4444"
+      info: "#3B82F6"
+
+  dark_mode:
+    surface:
+      base: "#1C1917"
+      alt: "#292524"
+    text:
+      primary: "#F5F5F4"
+      secondary: "#A8A29E"

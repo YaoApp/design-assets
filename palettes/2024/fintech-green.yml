@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# yaoapp/design-assets
+# ============================================================
+palette:
+  name: "Fintech Green"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "fintech"
+    style: "enterprise"
+    mode: "light"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#059669"
+      hover: "#047857"
+      light: "#D1FAE5"
+
+    secondary:
+      base: "#10B981"
+      hover: "#059669"
+      light: "#D1FAE5"
+
+    accent:
+      base: "#3B82F6"
+      hover: "#2563EB"
+      light: "#DBEAFE"
+
+    surface:
+      base: "#FFFFFF"
+      alt: "#F9FAFB"
+      hover: "#F3F4F6"
+
+    text:
+      primary: "#0F172A"
+      secondary: "#475569"
+      disabled: "#CBD5E1"
+      inverse: "#FFFFFF"
+
+    border:
+      base: "#E2E8F0"
+      focus: "#059669"
+
+    semantic:
+      success: "#10B981"
+      warning: "#F59E0B"
+      error: "#EF4444"
+      info: "#3B82F6"
+
+  dark_mode:
+    surface:
+      base: "#0F172A"
+      alt: "#1E293B"
+    text:
+      primary: "#F1F5F9"
+      secondary: "#94A3B8"

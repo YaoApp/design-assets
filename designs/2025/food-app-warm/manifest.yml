@@ -1,0 +1,33 @@
+# Design Scheme Manifest
+name: "Food App Warm"
+version: "1.0"
+year: 2025
+source: "curated"
+
+industry: "food"
+scenes:
+  - list
+  - detail
+medium: "app"
+
+style: "playful"
+mood: "warm"
+mode: "light"
+
+colors_ref: ".library/palettes/2025/food-app-warm.yml"
+
+typography:
+  body: "Inter"
+  heading: "DM Sans"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "single-column"
+  max_width: 375
+  responsive: false
+
+keywords:
+  - "餐饮"
+  - "外卖"
+  - "App"
+  - "温暖"

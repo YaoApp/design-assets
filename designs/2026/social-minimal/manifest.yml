@@ -1,0 +1,33 @@
+# Design Scheme Manifest
+name: "Social Minimal"
+version: "1.0"
+year: 2026
+source: "curated"
+
+industry: "social"
+scenes:
+  - list
+  - detail
+medium: "app"
+
+style: "minimalist"
+mood: "calm"
+mode: "light"
+
+colors_ref: ".library/palettes/2026/social-minimal.yml"
+
+typography:
+  body: "Roboto"
+  heading: "Roboto"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "single-column"
+  max_width: 375
+  responsive: false
+
+keywords:
+  - "社交"
+  - "社区"
+  - "App"
+  - "极简"

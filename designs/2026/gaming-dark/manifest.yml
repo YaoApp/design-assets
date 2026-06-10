@@ -1,0 +1,33 @@
+# Design Scheme Manifest
+name: "Gaming Dark"
+version: "1.0"
+year: 2026
+source: "curated"
+
+industry: "gaming"
+scenes:
+  - landing
+  - hero
+medium: "web"
+
+style: "tech"
+mood: "bold"
+mode: "dark"
+
+colors_ref: ".library/palettes/2026/gaming-dark.yml"
+
+typography:
+  body: "Inter"
+  heading: "Space Grotesk"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "single-column"
+  max_width: 1440
+  responsive: true
+
+keywords:
+  - "游戏"
+  - "电竞"
+  - "暗色"
+  - "动感"

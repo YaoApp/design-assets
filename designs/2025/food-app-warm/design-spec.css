@@ -1,0 +1,68 @@
+/* === Design Tokens for Food App Warm === */
+/* Medium: app */
+/* Palette: palettes/2025/food-app-warm.yml */
+/* Source: curated */
+
+:root {
+  /* ======== Color System ======== */
+  --color-primary: #EA580C;
+  --color-primary-hover: #C2410C;
+  --color-primary-light: #FFF7ED;
+  --color-secondary: #F97316;
+  --color-accent: #84CC16;
+  --color-success: #22C55E;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
+  --color-info: #3B82F6;
+  --color-surface: #FFFBEB;
+  --color-surface-alt: #FFFFFF;
+  --color-surface-hover: #FFF7ED;
+  --color-text-primary: #431407;
+  --color-text-secondary: #7C2D12;
+  --color-text-disabled: #D6BCB0;
+  --color-border: #FED7AA;
+  --color-border-focus: #EA580C;
+
+  /* ======== Typography ======== */
+  --font-sans: 'DM Sans', 'Noto Sans SC', -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', 'Noto Serif SC', Georgia, serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --font-hand: 'LXGW WenKai', cursive;
+  --font-icon: 'Material Symbols Rounded';
+  --font-body: var(--font-sans);
+  --font-heading: var(--font-sans);
+  --text-base: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+
+  /* ======== Spacing ======== */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* ======== Border Radius ======== */
+  --radius-sm: 4px;
+  --radius-md: 12px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  /* ======== Shadows ======== */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.07);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+
+  /* ======== Layout ======== */
+  --page-width: 375px;
+  --touch-target: 44px;
+  --header-height: 44px;
+}

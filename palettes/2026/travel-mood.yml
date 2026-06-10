@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# yaoapp/design-assets
+# ============================================================
+palette:
+  name: "Travel Mood"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "travel"
+    style: "soft"
+    mode: "light"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#0891B2"
+      hover: "#0E7490"
+      light: "#ECFEFF"
+
+    secondary:
+      base: "#22D3EE"
+      hover: "#06B6D4"
+      light: "#CFFAFE"
+
+    accent:
+      base: "#F59E0B"
+      hover: "#D97706"
+      light: "#FEF3C7"
+
+    surface:
+      base: "#F8FAFC"
+      alt: "#FFFFFF"
+      hover: "#F0F9FF"
+
+    text:
+      primary: "#0C4A6E"
+      secondary: "#54849C"
+      disabled: "#B3CCDB"
+      inverse: "#FFFFFF"
+
+    border:
+      base: "#E0F2FE"
+      focus: "#0891B2"
+
+    semantic:
+      success: "#10B981"
+      warning: "#F59E0B"
+      error: "#EF4444"
+      info: "#3B82F6"
+
+  dark_mode:
+    surface:
+      base: "#0C2231"
+      alt: "#15354A"
+    text:
+      primary: "#F0F9FF"
+      secondary: "#7AA9C4"

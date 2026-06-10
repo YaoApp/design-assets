@@ -1,0 +1,66 @@
+/* === Design Tokens for Realestate Luxury === */
+/* Medium: web */
+/* Palette: palettes/2026/realestate-luxury.yml */
+/* Source: curated */
+
+:root {
+  /* ======== Color System ======== */
+  --color-primary: #92400E;
+  --color-primary-hover: #78350F;
+  --color-primary-light: #FEF3C7;
+  --color-secondary: #B45309;
+  --color-accent: #1E3A5F;
+  --color-success: #22C55E;
+  --color-warning: #D97706;
+  --color-error: #DC2626;
+  --color-info: #3B82F6;
+  --color-surface: #FDFBF7;
+  --color-surface-alt: #FFFFFF;
+  --color-surface-hover: #F8F4EB;
+  --color-text-primary: #291804;
+  --color-text-secondary: #6B4F2E;
+  --color-text-disabled: #D4C4A8;
+  --color-border: #D4C4A8;
+  --color-border-focus: #92400E;
+
+  /* ======== Typography ======== */
+  --font-sans: 'Playfair Display', 'Noto Sans SC', -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', 'Noto Serif SC', Georgia, serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --font-hand: 'LXGW WenKai', cursive;
+  --font-icon: 'Material Symbols Rounded';
+  --font-body: var(--font-sans);
+  --font-heading: var(--font-sans);
+  --text-base: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+
+  /* ======== Spacing ======== */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* ======== Border Radius ======== */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  /* ======== Shadows ======== */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.07);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+
+  /* ======== Layout ======== */
+  --page-width: 1200px;
+}

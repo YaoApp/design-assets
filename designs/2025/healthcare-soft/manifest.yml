@@ -1,0 +1,33 @@
+# Design Scheme Manifest
+name: "Healthcare Soft"
+version: "1.0"
+year: 2025
+source: "curated"
+
+industry: "healthcare"
+scenes:
+  - dashboard
+  - profile
+medium: "app"
+
+style: "soft"
+mood: "calm"
+mode: "light"
+
+colors_ref: ".library/palettes/2025/healthcare-soft.yml"
+
+typography:
+  body: "Roboto"
+  heading: "Roboto"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "single-column"
+  max_width: 375
+  responsive: false
+
+keywords:
+  - "医疗"
+  - "健康"
+  - "App"
+  - "柔和"

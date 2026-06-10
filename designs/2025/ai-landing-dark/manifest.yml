@@ -1,0 +1,34 @@
+# Design Scheme Manifest
+name: "AI Landing Dark"
+version: "1.0"
+year: 2025
+source: "curated"
+
+industry: "saas"
+scenes:
+  - landing
+  - hero
+medium: "web"
+
+style: "tech"
+mood: "bold"
+mode: "dark"
+
+colors_ref: ".library/palettes/2025/ai-landing-dark.yml"
+
+typography:
+  body: "Inter"
+  heading: "Space Grotesk"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "single-column"
+  max_width: 1200
+  responsive: true
+
+keywords:
+  - "AI"
+  - "落地页"
+  - "暗色"
+  - "科技"
+  - "SaaS"

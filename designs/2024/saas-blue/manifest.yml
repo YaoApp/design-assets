@@ -1,0 +1,33 @@
+# Design Scheme Manifest
+name: "SaaS Dashboard Blue"
+version: "1.0"
+year: 2024
+source: "curated"
+
+industry: "saas"
+scenes:
+  - dashboard
+  - admin
+medium: "web"
+
+style: "enterprise"
+mood: "professional"
+mode: "light"
+
+colors_ref: ".library/palettes/2024/saas-blue.yml"
+
+typography:
+  body: "Inter"
+  heading: "Inter"
+  mono: "JetBrains Mono"
+
+layout:
+  type: "sidebar"
+  max_width: 1440
+  responsive: true
+
+keywords:
+  - "管理后台"
+  - "数据分析"
+  - "企业级"
+  - "B2B"

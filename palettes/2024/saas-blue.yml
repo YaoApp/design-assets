@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# yaoapp/design-assets
+# ============================================================
+palette:
+  name: "SaaS Blue"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "saas"
+    style: "enterprise"
+    mode: "light"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#4F46E5"
+      hover: "#4338CA"
+      light: "#E0E7FF"
+
+    secondary:
+      base: "#0EA5E9"
+      hover: "#0284C7"
+      light: "#E0F2FE"
+
+    accent:
+      base: "#F59E0B"
+      hover: "#D97706"
+      light: "#FEF3C7"
+
+    surface:
+      base: "#FFFFFF"
+      alt: "#F9FAFB"
+      hover: "#F3F4F6"
+
+    text:
+      primary: "#111827"
+      secondary: "#6B7280"
+      disabled: "#D1D5DB"
+      inverse: "#FFFFFF"
+
+    border:
+      base: "#E5E7EB"
+      focus: "#4F46E5"
+
+    semantic:
+      success: "#10B981"
+      warning: "#F59E0B"
+      error: "#EF4444"
+      info: "#3B82F6"
+
+  dark_mode:
+    surface:
+      base: "#1F2937"
+      alt: "#111827"
+    text:
+      primary: "#F9FAFB"
+      secondary: "#9CA3AF"

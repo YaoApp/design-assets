@@ -1,0 +1,55 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# yaoapp/design-assets
+# ============================================================
+palette:
+  name: "AI Landing Dark"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "saas"
+    style: "tech"
+    mode: "dark"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#6366F1"
+      hover: "#818CF8"
+      light: "#312E81"
+
+    secondary:
+      base: "#818CF8"
+      hover: "#A5B4FC"
+      light: "#3730A3"
+
+    accent:
+      base: "#22D3EE"
+      hover: "#67E8F9"
+      light: "#164E63"
+
+    surface:
+      base: "#0F172A"
+      alt: "#1E293B"
+      hover: "#334155"
+
+    text:
+      primary: "#F1F5F9"
+      secondary: "#94A3B8"
+      disabled: "#475569"
+      inverse: "#0F172A"
+
+    border:
+      base: "#334155"
+      focus: "#6366F1"
+
+    semantic:
+      success: "#34D399"
+      warning: "#FBBF24"
+      error: "#F87171"
+      info: "#38BDF8"
+
+  dark_mode: null

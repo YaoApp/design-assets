@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# yaoapp/design-assets
+# ============================================================
+palette:
+  name: "Poster Conference"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "creative"
+    style: "editorial"
+    mode: "light"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#BE123C"
+      hover: "#9F1239"
+      light: "#FFF1F2"
+
+    secondary:
+      base: "#1E293B"
+      hover: "#0F172A"
+      light: "#F1F5F9"
+
+    accent:
+      base: "#EAB308"
+      hover: "#CA8A04"
+      light: "#FEF9C3"
+
+    surface:
+      base: "#FDFDFD"
+      alt: "#F5F5F4"
+      hover: "#FAFAF9"
+
+    text:
+      primary: "#0C0A09"
+      secondary: "#44403C"
+      disabled: "#C4C0BC"
+      inverse: "#FDFDFD"
+
+    border:
+      base: "#E7E5E4"
+      focus: "#BE123C"
+
+    semantic:
+      success: "#16A34A"
+      warning: "#EAB308"
+      error: "#BE123C"
+      info: "#2563EB"
+
+  dark_mode:
+    surface:
+      base: "#1C1917"
+      alt: "#292524"
+    text:
+      primary: "#F5F5F4"
+      secondary: "#A8A29E"

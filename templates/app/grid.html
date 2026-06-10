@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Grid</title>
+  <link rel="stylesheet" href="/api/fonts.css">
+  <style>
+    :root {
+      --color-primary: #4F46E5;
+      --color-primary-hover: #4338CA;
+      --color-primary-light: #E0E7FF;
+      --color-secondary: #0EA5E9;
+      --color-accent: #F59E0B;
+      --color-surface: #FFFFFF;
+      --color-surface-alt: #F9FAFB;
+      --color-surface-hover: #F3F4F6;
+      --color-text-primary: #111827;
+      --color-text-secondary: #6B7280;
+      --color-text-disabled: #D1D5DB;
+      --color-border: #E5E7EB;
+      --color-border-focus: #4F46E5;
+      --color-success: #10B981;
+      --color-warning: #F59E0B;
+      --color-error: #EF4444;
+      --color-info: #3B82F6;
+      --font-sans: 'Inter', 'Noto Sans SC', -apple-system, sans-serif;
+      --font-serif: 'Playfair Display', 'Noto Serif SC', Georgia, serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+      --font-body: var(--font-sans);
+      --font-heading: var(--font-sans);
+      --text-base: 16px;
+      --text-sm: 14px;
+      --text-xs: 12px;
+      --text-lg: 18px;
+      --text-xl: 20px;
+      --text-2xl: 24px;
+      --text-3xl: 30px;
+      --text-4xl: 36px;
+      --space-1: 4px;
+      --space-2: 8px;
+      --space-3: 12px;
+      --space-4: 16px;
+      --space-6: 24px;
+      --space-8: 32px;
+      --space-12: 48px;
+      --space-16: 64px;
+      --radius-sm: 4px;
+      --radius-md: 12px;
+      --radius-lg: 12px;
+      --radius-full: 9999px;
+      --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+      --shadow-md: 0 4px 6px rgba(0,0,0,0.07);
+      --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+      --page-width: 375px;
+      --header-height: 44px;
+      --touch-target: 44px;
+      --tab-bar-height: 56px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-body);
+      font-size: var(--text-base);
+      background: var(--color-surface-alt);
+      color: var(--color-text-primary);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .container {
+      max-width: var(--page-width);
+      margin: 0 auto;
+      padding: 0 var(--space-4);
+    }
+    header {
+      background: var(--color-surface);
+      border-bottom: 1px solid var(--color-border);
+      height: var(--header-height);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    header .title {
+      font-size: var(--text-base);
+      font-weight: 600;
+      color: var(--color-text-primary);
+    }
+    main { padding: var(--space-4) 0 calc(var(--tab-bar-height) + var(--space-4)); }
+
+    .page-header {
+      margin-bottom: var(--space-4);
+    }
+    .page-header h1 {
+      font-size: var(--text-xl);
+      font-weight: 700;
+    }
+    .page-header p {
+      color: var(--color-text-secondary);
+      font-size: var(--text-sm);
+      margin-top: var(--space-1);
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-3);
+    }
+    .card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+    }
+    .card .card-image {
+      height: 100px;
+      background: linear-gradient(135deg, var(--color-primary-light), var(--color-surface-hover));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-text-disabled);
+      font-size: var(--text-sm);
+    }
+    .card .card-body {
+      padding: var(--space-3);
+    }
+    .card .card-body h3 {
+      font-size: var(--text-sm);
+      font-weight: 600;
+      margin-bottom: var(--space-1);
+    }
+    .card .card-body p {
+      font-size: var(--text-xs);
+      color: var(--color-text-secondary);
+      line-height: 1.4;
+    }
+
+    .tab-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: var(--tab-bar-height);
+      background: var(--color-surface);
+      border-top: 1px solid var(--color-border);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      z-index: 10;
+    }
+    .tab-bar .tab {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+      min-height: var(--touch-target);
+      min-width: var(--touch-target);
+      font-size: var(--text-xs);
+      color: var(--color-text-secondary);
+      text-decoration: none;
+      padding: var(--space-1);
+    }
+    .tab-bar .tab.active {
+      color: var(--color-primary);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="title">Grid</span>
+  </header>
+  <main class="container">
+    <div class="page-header">
+      <h1>Browse</h1>
+      <p>Tap an item to view details.</p>
+    </div>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-image">Image</div>
+        <div class="card-body">
+          <h3>Item One</h3>
+          <p>Short description here.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">Image</div>
+        <div class="card-body">
+          <h3>Item Two</h3>
+          <p>Short description here.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">Image</div>
+        <div class="card-body">
+          <h3>Item Three</h3>
+          <p>Short description here.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">Image</div>
+        <div class="card-body">
+          <h3>Item Four</h3>
+          <p>Short description here.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <nav class="tab-bar">
+    <a href="#" class="tab">Home</a>
+    <a href="#" class="tab active">Browse</a>
+    <a href="#" class="tab">Items</a>
+    <a href="#" class="tab">Profile</a>
+  </nav>
+</body>
+</html>

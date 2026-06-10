@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# yaoapp/design-assets
+# ============================================================
+palette:
+  name: "Education Kid"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "education"
+    style: "playful"
+    mode: "light"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#7C3AED"
+      hover: "#6D28D9"
+      light: "#EDE9FE"
+
+    secondary:
+      base: "#A78BFA"
+      hover: "#8B5CF6"
+      light: "#F3E8FF"
+
+    accent:
+      base: "#F59E0B"
+      hover: "#D97706"
+      light: "#FEF3C7"
+
+    surface:
+      base: "#FFFFFF"
+      alt: "#FAFAFE"
+      hover: "#F4F2FF"
+
+    text:
+      primary: "#2D1B69"
+      secondary: "#6D5A9E"
+      disabled: "#D4CEE8"
+      inverse: "#FFFFFF"
+
+    border:
+      base: "#DDD6FE"
+      focus: "#7C3AED"
+
+    semantic:
+      success: "#22C55E"
+      warning: "#F59E0B"
+      error: "#EF4444"
+      info: "#3B82F6"
+
+  dark_mode:
+    surface:
+      base: "#2D1B69"
+      alt: "#3B2680"
+    text:
+      primary: "#F4F2FF"
+      secondary: "#C4B5FD"

@@ -1,0 +1,61 @@
+# ============================================================
+# Color Palette Standard Format v1.0
+# yaoapp/design-assets
+# ============================================================
+palette:
+  name: "Creative Portfolio"
+  version: "1.0"
+  source: "curated"
+  source_url: null
+
+  tags:
+    industry: "creative"
+    style: "editorial"
+    mode: "light"
+    season: null
+    culture: null
+
+  colors:
+    primary:
+      base: "#7C3AED"
+      hover: "#6D28D9"
+      light: "#EDE9FE"
+
+    secondary:
+      base: "#C084FC"
+      hover: "#A855F7"
+      light: "#F3E8FF"
+
+    accent:
+      base: "#F59E0B"
+      hover: "#D97706"
+      light: "#FEF3C7"
+
+    surface:
+      base: "#FAFAFA"
+      alt: "#FFFFFF"
+      hover: "#F4F4F5"
+
+    text:
+      primary: "#18181B"
+      secondary: "#52525B"
+      disabled: "#D4D4D8"
+      inverse: "#FFFFFF"
+
+    border:
+      base: "#E4E4E7"
+      focus: "#7C3AED"
+
+    semantic:
+      success: "#22C55E"
+      warning: "#F59E0B"
+      error: "#EF4444"
+      info: "#3B82F6"
+
+  dark_mode:
+    surface:
+      base: "#18181B"
+      alt: "#27272A"
+    text:
+      primary: "#FAFAFA"
+      secondary: "#A1A1AA"
