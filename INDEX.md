@@ -175,7 +175,7 @@ Each font directory contains:
 
 | Version | File | Size | Description |
 |---------|------|------|-------------|
-| 0.2.3 | `preview-server/dist.zip` | ~170KB | Full preview-server distribution (Node.js + React SPA) |
+| 0.2.4 | `preview-server/dist.zip` | ~170KB | Full preview-server distribution (Node.js + React SPA) |
 
 Extracted structure:
 ```
